@@ -1,3 +1,10 @@
+<img width="1000" height="480" alt="project-pathology" src="https://github.com/user-attachments/assets/00b17511-84d0-4b88-899a-7f2e3f0cb800" />
+<img width="1000" height="480" alt="project-fiber" src="https://github.com/user-attachments/assets/bb2bd294-d09f-4481-8e62-9e4c744a5519" />
+<img width="1000" height="480" alt="project-ecg" src="https://github.com/user-attachments/assets/1d5b27af-6981-4885-83fe-0df96d381394" />
+<img width="1000" height="334" alt="processes" src="https://github.com/user-attachments/assets/72498d4b-32be-4643-9362-8104cb5886ec" />
+<img width="1000" height="610" alt="hero" src="https://github.com/user-attachments/assets/570a57ad-6fab-49d1-829a-28082d9dfa5b" />
+<img width="1000" height="132" alt="footer" src="https://github.com/user-attachments/assets/a79fec67-5d24-4922-ad23-3914fd901649" />
+<img width="1000" height="340" alt="stack" src="https://github.com/user-attachments/assets/00362a7a-3e4a-49f2-8639-c41c29031e70" />
 <div align="center">
 
 <img src="assets/hero.svg" width="100%" alt="Brian: BSc student in Computational Biomedicine and AI, remote programmer"/>
