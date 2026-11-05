@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/570a57ad-6fab-49d1-829a-28082d9dfa5b" width="100%" alt="Brian: BSc student in Computational Biomedicine and AI"/>
+<img width="1000" height="610" alt="hero" src="https://github.com/user-attachments/assets/b4e2ff79-b2c5-4823-a340-43c3e515e136" />
 
 </div>
 
@@ -28,11 +28,12 @@
 <img src="https://github.com/user-attachments/assets/72498d4b-32be-4643-9362-8104cb5886ec" width="100%" alt="Process table of what I'm working on: biomedicine degree, pathology, ECG, optoacoustic sensing, medical imaging, Python"/>
 
 <br/>
-  
-<img src="https://github.com/user-attachments/assets/00362a7a-3e4a-49f2-8639-c41c29031e70" width="100%" alt="Toolchain: Python, SQL, PyTorch, TensorFlow, R, C, Linux, Git and GitHub, Pandas and NumPy, data visualization"/>
+
+<img width="1000" height="318" alt="stack" src="https://github.com/user-attachments/assets/01d6d882-45b3-4a3a-a284-962d83808f1d" />
+
 
 <br/>
 
 <img src="https://github.com/user-attachments/assets/a79fec67-5d24-4922-ad23-3914fd901649" width="100%" alt="Built with Python, curiosity and a lot of data"/>
 
-</div>
+
