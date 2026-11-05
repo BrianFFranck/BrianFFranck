@@ -5,8 +5,8 @@
 </div>
 
 <p align="center">
-  <b>Hi, I'm Brian.</b> I'm a <b>Computational Biomedicine &amp; AI</b> student at <b>Universidade Lusófona</b> and a remote programmer.<br/>
-  I'm interested in the place where medicine and machine learning meet: models that learn from slides, signals and sensors to help doctors see more.
+  <b>Hi, I'm Brian.</b> I'm a <b>Computational Biomedicine &amp; AI</b> student at <b>Universidade Lusófona.<br/>
+  I'm interested in the place where medicine and machine learning meet: models that learn from slides, signals and sensors.
 </p>
 
 <br/>
