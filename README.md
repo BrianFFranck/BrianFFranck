@@ -17,7 +17,7 @@
 
 <div align="center">
 
-<img src="assets/iris.svg" width="100%" alt="Project 01, Iris: Gleason grading of prostate biopsies with CLAM attention multiple instance learning on the PANDA dataset, targeting the ISUP grade 2 vs 3 boundary. Stage: early R&D." />
+<img src="assets/iris.svg" width="100%" alt="Project 01, Iris: Gleason grading of prostate biopsies with CLAM attention multiple instance learning on the PANDA dataset, targeting the ISUP Grade Group 1 vs 2 boundary. Stage: early R&D." />
 
 <br/>
 
@@ -30,7 +30,7 @@
 
 <br/>
 
-**The problem.** Prostate biopsies are graded with the Gleason system and grouped into ISUP grade groups (1 to 5). The grade drives treatment, yet pathologists often disagree, especially between **ISUP 2 (Gleason 3+4)** and **ISUP 3 (Gleason 4+3)**. That call can decide whether active surveillance is still on the table.
+**The problem.** Prostate biopsies are graded with the Gleason system and grouped into ISUP grade groups (1 to 5). The grade drives treatment, yet pathologists often disagree, especially on whether any Gleason pattern 4 is present: **ISUP 1 (Gleason 3+3)** versus **ISUP 2 (Gleason 3+4)**. That call often decides between active surveillance and treatment.
 
 **The idea.** A whole-slide image is gigapixel-sized and comes with a single label. Iris treats each slide as a bag of thousands of tiles and uses **attention-based multiple instance learning ([CLAM](https://github.com/mahmoodlab/CLAM))** to learn which tiles drive the grade. Its attention map becomes a heatmap a pathologist can check, so the answer is never just a number.
 
@@ -41,7 +41,7 @@
 - [ ] **Data:** [PANDA](https://www.kaggle.com/c/prostate-cancer-grade-assessment) slides and labels, tissue masking, tile extraction
 - [ ] **Baseline:** ResNet-50 tile features with simple mean/max pooling
 - [ ] **Iris v1:** CLAM attention MIL on the same features
-- [ ] **Evaluation:** quadratic weighted kappa on ISUP 0 to 5, with a focused look at the 2 vs 3 split
+- [ ] **Evaluation:** quadratic weighted kappa on ISUP 0 to 5, with a focused look at the ISUP 1 vs 2 boundary
 - [ ] **Explainability:** attention heatmaps overlaid on the slide
 - [ ] **Write-up:** open code, results and what didn't work
 
