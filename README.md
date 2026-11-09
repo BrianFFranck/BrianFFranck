@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <sub>NOW BUILDING&nbsp;&nbsp;→&nbsp;&nbsp;<b>IRIS</b>, an AI that grades prostate biopsies and shows where it looked. The goal is to grow it into a company.</sub>
+  <sub>NOW BUILDING&nbsp;&nbsp;→&nbsp;&nbsp;<b><a href="https://github.com/BrianFFranck/IRIS">IRIS</a></b>, an AI that grades prostate biopsies and shows where it looked. The goal is to grow it into a company.</sub>
 </p>
 
 <br/>
@@ -32,7 +32,7 @@
 
 **The problem.** Prostate biopsies are graded with the Gleason system and grouped into ISUP grade groups (1 to 5). The grade drives treatment, yet pathologists often disagree, especially on whether any Gleason pattern 4 is present: **ISUP 1 (Gleason 3+3)** versus **ISUP 2 (Gleason 3+4)**. That call often decides between active surveillance and treatment.
 
-**The idea.** A whole-slide image is gigapixel-sized and comes with a single label. Iris treats each slide as a bag of thousands of tiles and uses **attention-based multiple instance learning ([CLAM](https://github.com/mahmoodlab/CLAM))** to learn which tiles drive the grade. Its attention map becomes a heatmap a pathologist can check, so the answer is never just a number.
+**The idea.** A whole-slide image is gigapixel-sized and comes with a single label. Iris treats each slide as a bag of thousands of tiles and uses **attention-based multiple instance learning ([CLAM](https://github.com/mahmoodlab/CLAM))** to learn which tiles drive the grade. Its attention map becomes a heatmap a pathologist can check, so the answer is never just a number. The code lives in [BrianFFranck/IRIS](https://github.com/BrianFFranck/IRIS).
 
 **Where it's going.** I'm building Iris with the goal of turning it into a company: a second reader that helps pathologists grade prostate biopsies faster and more consistently, and always shows its reasoning. Today it's in early R&D, and the first step is a model that earns trust on public data.
 
@@ -41,9 +41,10 @@
 - [ ] **Data:** [PANDA](https://www.kaggle.com/c/prostate-cancer-grade-assessment) slides and labels, tissue masking, tile extraction
 - [ ] **Baseline:** ResNet-50 tile features with simple mean/max pooling
 - [ ] **Iris v1:** CLAM attention MIL on the same features
-- [ ] **Evaluation:** quadratic weighted kappa on ISUP 0 to 5, with a focused look at the ISUP 1 vs 2 boundary
+- [ ] **Boundary-weighted loss:** penalise ISUP 1 ↔ 2 mistakes more heavily than other errors
+- [ ] **Evaluation:** quadratic weighted kappa on ISUP 0 (no cancer) to 5, with a focused look at the ISUP 1 vs 2 boundary
 - [ ] **Explainability:** attention heatmaps overlaid on the slide
-- [ ] **Write-up:** open code, results and what didn't work
+- [ ] **Write-up:** public code, results and what didn't work
 
 **Beyond the model**
 
