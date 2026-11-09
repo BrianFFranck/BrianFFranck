@@ -80,15 +80,18 @@
 <br/>
 
 <p align="center">
-  <b>Let's talk</b> about computational pathology, biosignals or anything where medicine meets machine learning.<br/>
+  <b>Let's talk</b> about computational pathology, biosignals, Iris or anything where medicine meets machine learning.<br/>
   <sub>Lisbon, Portugal</sub>
-  <!--
-    Add your links here when ready, for example:
-    <br/>
-    <a href="https://www.linkedin.com/in/YOUR-HANDLE">LinkedIn</a>
-    &nbsp;·&nbsp;
-    <a href="mailto:YOUR-EMAIL">Email</a>
-  -->
+</p>
+
+<p align="center">
+  <a href="mailto:brianferrarif@gmail.com?subject=Hi%20Brian"><img src="assets/contact-email.svg" width="32%" alt="Email: brianferrarif@gmail.com" /></a>
+  <a href="https://www.instagram.com/_brian.franck_/"><img src="assets/contact-instagram.svg" width="32%" alt="Instagram: @_brian.franck_" /></a>
+  <img src="assets/contact-discord.svg" width="32%" alt="Discord: username ._.atllas._. (display name Atlas)" />
+</p>
+
+<p align="center">
+  <sub>Email <a href="mailto:brianferrarif@gmail.com">brianferrarif@gmail.com</a> &nbsp;·&nbsp; Instagram <a href="https://www.instagram.com/_brian.franck_/">@_brian.franck_</a> &nbsp;·&nbsp; Discord <code>._.atllas._.</code> (Atlas)</sub>
 </p>
 
 <br/>
