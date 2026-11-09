@@ -1,34 +1,40 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="BRIAN.LAB: Brian, BSc student in Computational Biomedicine & AI at Universidade Lusófona. Now building Iris, a Gleason grading AI." />
+<img src="assets/hero.svg" width="100%" alt="BRIAN.LAB: Brian Franck, also known as Atlas, BSc student in Computational Biomedicine & AI at Universidade Lusófona. Now building Iris, a Gleason grading AI." />
 
 </div>
 
 <p align="center">
-  <b>Hi, I'm Brian.</b> I'm a <b>Computational Biomedicine &amp; AI</b> student at <b>Universidade Lusófona</b> in Lisbon.<br/>
+  <b>Hi, I'm Brian</b>, or <b>Atlas</b> online. I'm a <b>Computational Biomedicine &amp; AI</b> student at <b>Universidade Lusófona</b> in Lisbon.<br/>
   I'm interested in the place where medicine and machine learning meet: models that learn from slides, signals and sensors.
 </p>
 
 <p align="center">
-  <sub>NOW BUILDING&nbsp;&nbsp;→&nbsp;&nbsp;<b>IRIS</b>, an AI that grades prostate biopsies and shows where it looked.</sub>
+  <sub>NOW BUILDING&nbsp;&nbsp;→&nbsp;&nbsp;<b>IRIS</b>, an AI that grades prostate biopsies and shows where it looked. The goal is to grow it into a company.</sub>
 </p>
 
 <br/>
 
 <div align="center">
 
-<img src="assets/iris.svg" width="100%" alt="Project 01, Iris: Gleason grading of prostate biopsies with CLAM attention multiple instance learning on the PANDA dataset, targeting the ISUP grade 2 vs 3 boundary." />
+<img src="assets/iris.svg" width="100%" alt="Project 01, Iris: Gleason grading of prostate biopsies with CLAM attention multiple instance learning on the PANDA dataset, targeting the ISUP grade 2 vs 3 boundary. Stage: early R&D." />
+
+<br/>
+
+<img src="assets/iris-vision.svg" width="100%" alt="Iris vision, a concept mock-up with illustrative values: a biopsy with an attention heatmap, a grade distribution and a send-to-pathologist button. Mission: a second reader for every prostate biopsy. The plan: research (now), prototype, validation, pilot, and a company as the goal." />
 
 </div>
 
 <details>
-<summary><b>&nbsp;Iris: what it is, the plan, and why the name</b></summary>
+<summary><b>&nbsp;Iris: what it is, where it's going, and why the name</b></summary>
 
 <br/>
 
 **The problem.** Prostate biopsies are graded with the Gleason system and grouped into ISUP grade groups (1 to 5). The grade drives treatment, yet pathologists often disagree, especially between **ISUP 2 (Gleason 3+4)** and **ISUP 3 (Gleason 4+3)**. That call can decide whether active surveillance is still on the table.
 
 **The idea.** A whole-slide image is gigapixel-sized and comes with a single label. Iris treats each slide as a bag of thousands of tiles and uses **attention-based multiple instance learning ([CLAM](https://github.com/mahmoodlab/CLAM))** to learn which tiles drive the grade. Its attention map becomes a heatmap a pathologist can check, so the answer is never just a number.
+
+**Where it's going.** I'm building Iris with the goal of turning it into a company: a second reader that helps pathologists grade prostate biopsies faster and more consistently, and always shows its reasoning. Today it's in early R&D, and the first step is a model that earns trust on public data.
 
 **Roadmap**
 
@@ -39,9 +45,15 @@
 - [ ] **Explainability:** attention heatmaps overlaid on the slide
 - [ ] **Write-up:** open code, results and what didn't work
 
+**Beyond the model**
+
+- [ ] **Validation:** external datasets and feedback from practising pathologists
+- [ ] **Pilot:** a second-reader workflow tested with a pathology lab
+- [ ] **Company:** build Iris into a company
+
 **Why "Iris"?** The iris is the part of the eye that decides how much light gets in. Iris does the same for a biopsy: out of thousands of tiles, it decides which ones deserve attention, and it shows you where it looked.
 
-<sub>Iris is a student research project. It is not a medical device and is not intended for clinical use.</sub>
+<sub>Iris is in early research and development. It is not a medical device and is not cleared for clinical use.</sub>
 
 </details>
 
@@ -57,11 +69,11 @@
 
 <br/>
 
-<img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (planned), ECG audit (running), optoacoustic sensing (research), medical imaging (learning), Python (running)." />
+<img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG audit (running), optoacoustic sensing (research), medical imaging (learning), Python (running)." />
 
 <br/>
 
-<img src="assets/toolchain.svg" width="100%" alt="Toolchain: Python (advanced), SQL, PyTorch, TensorFlow, R, C, Linux, Git and GitHub, pandas and NumPy, data visualization with Matplotlib and Seaborn." />
+<img src="assets/toolchain.svg" width="100%" alt="Toolchain as a constellation. Systems: Python (advanced), Linux, Git and GitHub, C. Data: pandas and NumPy, SQL, R, data visualization with Matplotlib and Seaborn. Machine learning: PyTorch, TensorFlow." />
 
 </div>
 
