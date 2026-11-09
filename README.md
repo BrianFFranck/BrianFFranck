@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="BRIAN.LAB: Brian Franck, also known as Atlas, BSc student in Computational Biomedicine & AI at Universidade Lusófona. Now building Iris, a Gleason grading AI." />
+<img src="assets/hero.svg" width="100%" alt="BRIAN.LAB: Brian Franck, also known as Atlas, with a neural network passing signals from BIO to AI. BSc student in Computational Biomedicine & AI at Universidade Lusófona. Now building Iris, a Gleason grading AI." />
 
 </div>
 
