@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <b>Hi, I'm Brian</b>, or <b>Atlas</b> online. I'm a <b>Computational Biomedicine &amp; AI</b> student at <b>Universidade Lusófona</b> in Lisbon.<br/>
+  <b>Hi, I'm Brian</b>, aka <b>Atlas</b>. I'm a <b>Computational Biomedicine &amp; AI</b> student at <b>Universidade Lusófona</b> in Lisbon.<br/>
   I'm interested in the place where medicine and machine learning meet: models that learn from slides, signals and sensors.
 </p>
 
