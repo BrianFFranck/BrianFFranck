@@ -21,7 +21,7 @@
 
 <br/>
 
-<img src="assets/iris-vision.svg" width="100%" alt="Iris vision, a concept mock-up with illustrative values: a biopsy with an attention heatmap, a grade distribution and a send-to-pathologist button. Mission: a second reader for every prostate biopsy. The plan: research (now), prototype, validation, pilot, and a company as the goal." />
+<img src="assets/iris-vision.svg" width="100%" alt="Iris vision, a concept mock-up with illustrative values: biopsy cores where Iris marks the three regions it weighed most, zoomed crops showing pattern 3 glands and one small possible pattern 4 focus, a grade distribution leaning to ISUP 2 but borderline 1 / 2, and a send-to-pathologist button. Mission: a second reader for every prostate biopsy. The plan: research (now), prototype, validation, pilot, and a company as the goal." />
 
 </div>
 
