@@ -23,7 +23,7 @@
 <rect x="24" y="16" width="8" height="12" fill="#22d3ee" class="blink"/>
 <text x="40" y="26" font-size="12" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="1.5">IRIS / VISION</text>
 <text x="500" y="26" font-size="12" fill="#5f7385" text-anchor="middle" font-weight="400" letter-spacing="2">CONCEPT  ·  NOT A PRODUCT YET</text>
-<text x="976" y="26" font-size="12" fill="#5f7385" text-anchor="end" font-weight="400" letter-spacing="1.5">GOAL: A COMPANY</text>
+<text x="976" y="26" font-size="12" fill="#5f7385" text-anchor="end" font-weight="400" letter-spacing="1.5">ROADMAP</text>
 <path d="M14 454 V466 H26" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
 <path d="M986 454 V466 H974" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
 <rect x="30" y="62" width="450" height="330" rx="6" fill="#08111a" stroke="#1a2a36"/>

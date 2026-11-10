@@ -25,24 +25,24 @@
 <rect x="24" y="16" width="8" height="12" fill="#22d3ee" class="blink"/>
 <text x="40" y="26" font-size="12" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="1.5">02 / BIOSIGNALS</text>
 <text x="500" y="26" font-size="12" fill="#5f7385" text-anchor="middle" font-weight="400" letter-spacing="2">MODULE: DATA-AUDIT</text>
-<text x="976" y="26" font-size="12" fill="#5f7385" text-anchor="end" font-weight="400" letter-spacing="1.5">STATUS: RUNNING</text>
+<text x="976" y="26" font-size="12" fill="#5f7385" text-anchor="end" font-weight="400" letter-spacing="1.5">UNIVERSITY GROUP PROJECT</text>
 <path d="M14 454 V466 H26" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
 <path d="M986 454 V466 H974" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
-<text x="30" y="86" font-size="12" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="2">PROJECT 02 / 03</text>
+<text x="30" y="86" font-size="12" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="2">PROJECT 02 / 04</text>
 <text x="30" y="148" font-size="64" fill="#d6e4ec" text-anchor="start" font-weight="300" letter-spacing="10">ECG</text>
 <text x="30" y="218" font-size="64" fill="#5f7385" text-anchor="start" font-weight="300" letter-spacing="10">AUDIT</text>
-<text x="30" y="262" font-size="14" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">Clean clinical ECG data before any model sees it:</text>
-<text x="30" y="283" font-size="14" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">find gaps, drift and noise, fix inconsistent</text>
-<text x="30" y="304" font-size="14" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">records and prepare a signal worth analysing.</text>
+<text x="30" y="262" font-size="14" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">Audit clinical ECG records before any model sees</text>
+<text x="30" y="283" font-size="14" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">them: missing values, duplicates and impossible</text>
+<text x="30" y="304" font-size="14" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">measurements are flagged, never silently deleted.</text>
 <rect x="30" y="332" width="132" height="38" rx="3" fill="#0a121a" stroke="#1a2a36"/>
 <text x="40" y="347" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="1.2">INPUT</text>
-<text x="40" y="363" font-size="14" fill="#22d3ee" text-anchor="start" font-weight="700" letter-spacing="0">CLINICAL ECG</text>
+<text x="40" y="363" font-size="14" fill="#22d3ee" text-anchor="start" font-weight="700" letter-spacing="0">ECG RECORDS</text>
 <rect x="168" y="332" width="132" height="38" rx="3" fill="#0a121a" stroke="#1a2a36"/>
 <text x="178" y="347" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="1.2">GOAL</text>
 <text x="178" y="363" font-size="14" fill="#22d3ee" text-anchor="start" font-weight="700" letter-spacing="0">ML-READY</text>
 <rect x="306" y="332" width="132" height="38" rx="3" fill="#0a121a" stroke="#1a2a36"/>
 <text x="316" y="347" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="1.2">STACK</text>
-<text x="316" y="363" font-size="14" fill="#22d3ee" text-anchor="start" font-weight="700" letter-spacing="0">PYTHON</text>
+<text x="316" y="363" font-size="14" fill="#22d3ee" text-anchor="start" font-weight="700" letter-spacing="0">PANDAS</text>
 <rect x="460" y="62" width="510" height="300" rx="3" fill="#06121a"/>
 <rect x="460" y="62" width="510" height="300" fill="url(#minor)"/>
 <rect x="460" y="62" width="510" height="300" fill="url(#major)"/>
@@ -64,7 +64,7 @@
 <text x="494" y="348" font-size="11" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0" opacity="1">HR 71 bpm<animate attributeName="opacity" calcMode="discrete" values="1;0;1" keyTimes="0.0000;0.2200;0.2546" dur="10.0s" repeatCount="indefinite"/></text>
 <text x="494" y="348" font-size="11" fill="#fb7185" text-anchor="start" font-weight="700" letter-spacing="0" opacity="0">HR -- bpm<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.2200;0.2546" dur="10.0s" repeatCount="indefinite"/></text>
 <rect x="460" y="62" width="510" height="300" rx="3" fill="none" stroke="#22d3ee" stroke-opacity=".5"/>
-<text x="460" y="380" font-size="11" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="1">LIVE SWEEP  ·  AUTO-FLAGGED SEGMENTS</text>
+<text x="460" y="380" font-size="11" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="1">ILLUSTRATION  ·  FLAGGED, NEVER DELETED</text>
 <rect x="31" y="408" width="225" height="46" rx="3" fill="#0a121a" stroke="#1a2a36"><animate attributeName="stroke" calcMode="discrete" values="#1a2a36;#a3e635;#1a2a36" keyTimes="0.0000;0.7200;0.9850" dur="10.0s" repeatCount="indefinite"/></rect>
 <rect x="32" y="451" height="2" width="0" fill="#a3e635"><animate attributeName="width" values="0;0;223;223;0;0" keyTimes="0.0000;0.6750;0.7200;0.9400;0.9850;1.0000" dur="10.0s" repeatCount="indefinite"/></rect>
 <path d="M45 431 l5 5 l10 -11" fill="none" stroke="#a3e635" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1;1" keyTimes="0.0000;0.7200;0.7400;0.9400;0.9850;1.0000" dur="10.0s" repeatCount="indefinite"/></path>
@@ -72,13 +72,13 @@
 <rect x="268" y="408" width="225" height="46" rx="3" fill="#0a121a" stroke="#1a2a36"><animate attributeName="stroke" calcMode="discrete" values="#1a2a36;#a3e635;#1a2a36" keyTimes="0.0000;0.7750;0.9850" dur="10.0s" repeatCount="indefinite"/></rect>
 <rect x="269" y="451" height="2" width="0" fill="#a3e635"><animate attributeName="width" values="0;0;223;223;0;0" keyTimes="0.0000;0.7300;0.7750;0.9400;0.9850;1.0000" dur="10.0s" repeatCount="indefinite"/></rect>
 <path d="M282 431 l5 5 l10 -11" fill="none" stroke="#a3e635" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1;1" keyTimes="0.0000;0.7750;0.7950;0.9400;0.9850;1.0000" dur="10.0s" repeatCount="indefinite"/></path>
-<text x="308" y="437" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.5">INCONSISTENT RECORDS</text>
+<text x="308" y="437" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.5">DUPLICATE RECORDS</text>
 <rect x="505" y="408" width="225" height="46" rx="3" fill="#0a121a" stroke="#1a2a36"><animate attributeName="stroke" calcMode="discrete" values="#1a2a36;#a3e635;#1a2a36" keyTimes="0.0000;0.8300;0.9850" dur="10.0s" repeatCount="indefinite"/></rect>
 <rect x="506" y="451" height="2" width="0" fill="#a3e635"><animate attributeName="width" values="0;0;223;223;0;0" keyTimes="0.0000;0.7850;0.8300;0.9400;0.9850;1.0000" dur="10.0s" repeatCount="indefinite"/></rect>
 <path d="M519 431 l5 5 l10 -11" fill="none" stroke="#a3e635" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1;1" keyTimes="0.0000;0.8300;0.8500;0.9400;0.9850;1.0000" dur="10.0s" repeatCount="indefinite"/></path>
-<text x="545" y="437" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.5">OUTLIERS</text>
+<text x="545" y="437" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.5">IMPLAUSIBLE VALUES</text>
 <rect x="742" y="408" width="225" height="46" rx="3" fill="#0a121a" stroke="#1a2a36"><animate attributeName="stroke" calcMode="discrete" values="#1a2a36;#a3e635;#1a2a36" keyTimes="0.0000;0.8850;0.9850" dur="10.0s" repeatCount="indefinite"/></rect>
 <rect x="743" y="451" height="2" width="0" fill="#a3e635"><animate attributeName="width" values="0;0;223;223;0;0" keyTimes="0.0000;0.8400;0.8850;0.9400;0.9850;1.0000" dur="10.0s" repeatCount="indefinite"/></rect>
 <path d="M756 431 l5 5 l10 -11" fill="none" stroke="#a3e635" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1;1" keyTimes="0.0000;0.8850;0.9050;0.9400;0.9850;1.0000" dur="10.0s" repeatCount="indefinite"/></path>
-<text x="782" y="437" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.5">SIGNAL QUALITY</text>
+<text x="782" y="437" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.5">QUALITY NOTES</text>
 </svg>

@@ -22,12 +22,12 @@
 <rect x="0.5" y="0.5" width="999" height="479" rx="8" fill="url(#dots)"/>
 <line x1="0" y1="40" x2="1000" y2="40" stroke="#1a2a36"/>
 <rect x="24" y="16" width="8" height="12" fill="#22d3ee" class="blink"/>
-<text x="40" y="26" font-size="12" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="1.5">03 / BIOSENSORS</text>
+<text x="40" y="26" font-size="12" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="1.5">04 / BIOSENSORS</text>
 <text x="500" y="26" font-size="12" fill="#5f7385" text-anchor="middle" font-weight="400" letter-spacing="2">MODULE: OPTOACOUSTICS</text>
 <text x="976" y="26" font-size="12" fill="#5f7385" text-anchor="end" font-weight="400" letter-spacing="1.5">STATUS: RESEARCH</text>
 <path d="M14 454 V466 H26" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
 <path d="M986 454 V466 H974" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
-<text x="30" y="86" font-size="12" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="2">PROJECT 03 / 03</text>
+<text x="30" y="86" font-size="12" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="2">PROJECT 04 / 04</text>
 <text x="30" y="140" font-size="46" fill="#d6e4ec" text-anchor="start" font-weight="300" letter-spacing="4">FIBER-OPTIC</text>
 <text x="30" y="192" font-size="46" fill="#5f7385" text-anchor="start" font-weight="300" letter-spacing="4">SENSING</text>
 <text x="30" y="244" font-size="14" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">Label-free optical biosensing. Sound changes the</text>

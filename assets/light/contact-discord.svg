@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 76" width="320" height="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace">
+<defs>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#e1e7ed"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="softU" filterUnits="userSpaceOnUse" x="-600" y="-600" width="2400" height="2000"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="cyg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#155e75"/><stop offset=".5" stop-color="#0e7490"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+
+<style>
+  .blink{animation:blink 1.1s steps(2,start) infinite}
+  @keyframes blink{to{visibility:hidden}}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+  .flow{stroke-dasharray:5 6;animation:flow 1s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-22}}
+
+</style>
+</defs>
+<rect x="0.5" y="0.5" width="319" height="75" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0.5" y="0.5" width="319" height="75" rx="8" fill="url(#dots)"/>
+<rect x="0.5" y="0.5" width="319" height="75" rx="8" fill="none" stroke="#4338ca" stroke-width="1.5" pathLength="100" stroke-dasharray="14 86" filter="url(#softU)"><animate attributeName="stroke-dashoffset" values="0;-100" dur="5s" repeatCount="indefinite"/></rect>
+<rect x="14" y="14" width="48" height="48" rx="8" fill="#4338ca" fill-opacity=".1" stroke="#4338ca" stroke-opacity=".5"/>
+<path d="M25 28 h26 a3 3 0 0 1 3 3 v13 a3 3 0 0 1 -3 3 h-15 l-7 6 v-6 h-4 a3 3 0 0 1 -3 -3 v-13 a3 3 0 0 1 3 -3 Z" fill="none" stroke="#4338ca" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="31" cy="36.5" r="2.2" fill="#4338ca"><animate attributeName="cy" values="36.5;33;36.5;36.5" keyTimes="0;.15;.3;1" dur="1.4s" begin="0.00s" repeatCount="indefinite"/></circle>
+<circle cx="38" cy="36.5" r="2.2" fill="#4338ca"><animate attributeName="cy" values="36.5;33;36.5;36.5" keyTimes="0;.15;.3;1" dur="1.4s" begin="0.18s" repeatCount="indefinite"/></circle>
+<circle cx="45" cy="36.5" r="2.2" fill="#4338ca"><animate attributeName="cy" values="36.5;33;36.5;36.5" keyTimes="0;.15;.3;1" dur="1.4s" begin="0.36s" repeatCount="indefinite"/></circle>
+<text x="78" y="28" font-size="10.5" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="1.5">DISCORD  ·  ATLAS</text>
+<text x="78" y="48" font-size="14" fill="#17212b" text-anchor="start" font-weight="700" letter-spacing="0">._.atllas._.</text>
+<text x="78" y="64" font-size="10.5" fill="#4338ca" text-anchor="start" font-weight="400" letter-spacing="0.5">add me by username</text>
+</svg>
