@@ -21,7 +21,7 @@
 
 <br/>
 
-<a href="https://github.com/BrianFFranck/IRIS/blob/main/experiments.md"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/lab.svg" /><img src="assets/lab.svg" width="100%" alt="Iris lab notebook: the latest real run from the experiment log, with validation QWK per fold, how many ISUP 2 slides were recognised, how much cancer the tiling keeps, the main finding, what comes next and which stages are done. Updated automatically. Click to open the experiment log." /></picture></a>
+<a href="https://github.com/BrianFFranck/IRIS/blob/main/experiments.md"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/lab.svg" /><img src="assets/lab.svg" width="100%" alt="Iris lab notebook: the best real run so far from the experiment log, with validation QWK per fold, how many ISUP 2 slides were recognised, how much cancer the tiling keeps, the main finding, what comes next and which stages are done. Updated automatically. Click to open the experiment log." /></picture></a>
 
 </div>
 
@@ -38,10 +38,10 @@
 
 <p align="center">
 <!-- lab:start -->
-<b>Where Iris is today (2026-11-10).</b> Latest run: <code>meanmax (baseline)</code> on 299 PANDA slides, validation QWK <b>0.47 ± 0.11</b>, with 0 of 38 ISUP 2 slides called ISUP 2. Tiling keeps a median 0.94 to 0.95 of the cancer tissue. Next: gated attention MIL (abmil.py): does it start recognising GG2?
+<b>Where Iris is today (2026-11-10).</b> Best run so far: <code>meanmax (baseline)</code> on 299 PANDA slides, validation QWK <b>0.47 ± 0.11</b>, with 0 of 38 ISUP 2 slides called ISUP 2. Tiling keeps a median 0.94 to 0.95 of the cancer tissue. Next: gated attention MIL (abmil.py): does it start recognising GG2?
 <!-- lab:end -->
 <br/>
-<sub>These are validation numbers from early R&amp;D, not test results. The card and this line update themselves from the <a href="https://github.com/BrianFFranck/IRIS/blob/main/experiments.md">experiment log</a>, including the runs that don't work.</sub>
+<sub>These are validation numbers from early R&amp;D, not test results. The card and this line show the best run so far and update themselves from the <a href="https://github.com/BrianFFranck/IRIS/blob/main/experiments.md">experiment log</a>; every run, including the ones that don't work, is in the log.</sub>
 </p>
 
 <div align="center">

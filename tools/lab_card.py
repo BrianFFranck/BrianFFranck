@@ -5,7 +5,7 @@ Usage: python tools/lab_card.py path/to/experiments.md assets [README.md]
 
 If a README is given, the sentence between <!-- lab:start --> and <!-- lab:end --> is refreshed too.
 
-Reads the newest run from the Models table, the tiling check and the first open idea,
+Reads the best run (highest mean validation QWK) from the Models table, the tiling check and the first open idea,
 then writes assets/lab.svg (dark) and assets/light/lab.svg. If the log cannot be parsed
 the existing card is left untouched. Standard library only.
 """
@@ -98,25 +98,23 @@ def read_log(md):
 
 def card(d):
     W, H = 1000, 430
-    r, b = d["latest"], []
+    r, b = d["best"], []
     b += [f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="8" fill="{BG}" stroke="{LINE}"/>',
           f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="8" fill="url(#dots)"/>',
           f'<line x1="0" y1="40" x2="{W}" y2="40" stroke="{LINE}"/>',
           f'<rect x="24" y="16" width="8" height="12" fill="{CY}" class="blink"/>',
           T(40, 26, 12, CY, "IRIS / LAB NOTEBOOK", ls=1.5),
-          T(W / 2, 26, 12, MUTED, "tail -n 1 experiments.md", anchor="middle", ls=2),
-          T(W - 24, 26, 12, MUTED, escape(f"LAST RUN {r['date']}"), anchor="end", ls=1.5)]
+          T(W / 2, 26, 12, MUTED, "sort -k qwk experiments.md | tail -n 1", anchor="middle", ls=2),
+          T(W - 24, 26, 12, MUTED, escape(f"BEST RUN {r['date']}"), anchor="end", ls=1.5)]
 
     # --- headline number
-    b.append(T(30, 76, 11, CY, "LATEST RUN  ·  VALIDATION FOLDS", ls=1.5))
+    b.append(T(30, 76, 11, CY, "BEST RUN SO FAR  ·  VALIDATION FOLDS", ls=1.5))
     b.append(T(30, 100, 14, FG, escape(r["model"]), weight=700))
     b.append(T(28, 178, 76, FG, f"{r['mean']:.2f}", weight=300, ls=2))
     b.append(T(222, 150, 20, MUTED, f"± {r['std']:.2f}"))
     b.append(T(222, 176, 12, MUTED, "QWK", ls=2))
     b.append(T(30, 208, 11, MUTED, escape(f"WEIGHTED KAPPA  ·  {len(r['folds']) or 5}-FOLD  ·  {r['slides']} SLIDES"), ls=1))
-    is_best = d["best"] is r
-    tag = "NUMBER TO BEAT" if d["n"] == 1 or is_best and "baseline" in r["model"].lower() else (
-        "BEST SO FAR" if is_best else f"BEST SO FAR {d['best']['mean']:.2f}")
+    tag = "NUMBER TO BEAT" if "baseline" in r["model"].lower() else f"BEST OF {d['n']} RUNS"
     b.append(f'<rect x="30" y="222" width="{len(tag) * 7.6 + 22:.0f}" height="22" rx="3" fill="{LIME}" fill-opacity=".1" stroke="{LIME}"/>')
     b.append(T(41, 237, 11, LIME, escape(tag), weight=700, ls=1.2))
 
@@ -205,8 +203,8 @@ def card(d):
 
 
 def summary(d):
-    r = d["latest"]
-    out = (f"<b>Where Iris is today ({escape(r['date'])}).</b> Latest run: <code>{escape(r['model'])}</code> on {escape(r['slides'])} PANDA slides, "
+    r = d["best"]
+    out = (f"<b>Where Iris is today ({escape(r['date'])}).</b> Best run so far: <code>{escape(r['model'])}</code> on {escape(r['slides'])} PANDA slides, "
            f"validation QWK <b>{r['mean']:.2f} ± {r['std']:.2f}</b>")
     if r["gg2"]:
         out += f", with {escape(r['gg2'].replace(' / ', ' of '))} ISUP 2 slides called ISUP 2"
@@ -241,7 +239,7 @@ def main():
             fh.write(text)
     if len(sys.argv) > 3:
         refresh_readme(sys.argv[3], d)
-    r = d["latest"]
+    r = d["best"]
     print(f"lab.svg: {r['model']} {r['date']} QWK {r['mean']:.2f} ± {r['std']:.2f}")
 
 
