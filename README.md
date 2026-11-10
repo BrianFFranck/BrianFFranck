@@ -32,6 +32,11 @@
 </div>
 
 <p align="center">
+  <sub>Slide from the PANDA challenge dataset, used for non-commercial research under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-SA-NC 4.0</a>; the overlay is my own work and is shared under the same licence.<br/>
+  Bulten, W., Kartasalo, K., Chen, P.-H. C. et al. <a href="https://doi.org/10.1038/s41591-021-01620-2">Artificial intelligence for diagnosis and Gleason grading of prostate cancer: the PANDA challenge</a>. Nat Med 28, 154–163 (2022).</sub>
+</p>
+
+<p align="center">
 <!-- lab:start -->
 <b>Where Iris is today (2026-11-10).</b> Latest run: <code>meanmax (baseline)</code> on 299 PANDA slides, validation QWK <b>0.47 ± 0.11</b>, with 0 of 38 ISUP 2 slides called ISUP 2. Tiling keeps a median 0.94 to 0.95 of the cancer tissue. Next: gated attention MIL (abmil.py): does it start recognising GG2?
 <!-- lab:end -->
