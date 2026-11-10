@@ -25,6 +25,12 @@
 
 </div>
 
+<div align="center">
+
+<a href="https://github.com/BrianFFranck/IRIS"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/slide.svg" /><img src="assets/slide.svg" width="100%" alt="A real prostate biopsy from the PANDA dataset, ISUP grade 2, with the 48 tiles Iris keeps drawn on it. Tiles that contain cancer according to the PANDA label mask are outlined in amber. Three of the tiles are shown at the resolution the model reads. Tiling keeps 89% of the tissue and 95% of the cancer on this slide. Slide imagery: Radboud UMC and Karolinska Institutet, CC BY-SA-NC 4.0." /></picture></a>
+
+</div>
+
 <p align="center">
 <!-- lab:start -->
 <b>Where Iris is today (2026-11-10).</b> Latest run: <code>meanmax (baseline)</code> on 299 PANDA slides, validation QWK <b>0.47 ± 0.11</b>, with 0 of 38 ISUP 2 slides called ISUP 2. Tiling keeps a median 0.94 to 0.95 of the cancer tissue. Next: gated attention MIL (abmil.py): does it start recognising GG2?
@@ -113,9 +119,11 @@
 </p>
 
 <p align="center">
-  <a href="mailto:brianferrarif@gmail.com?subject=Hi%20Brian"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-email.svg" /><img src="assets/contact-email.svg" width="32%" alt="Email: brianferrarif@gmail.com" /></picture></a>
-  <a href="https://www.instagram.com/_brian.franck_/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-instagram.svg" /><img src="assets/contact-instagram.svg" width="32%" alt="Instagram: @_brian.franck_" /></picture></a>
-  <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-discord.svg" /><img src="assets/contact-discord.svg" width="32%" alt="Discord: username ._.atllas._. (display name Atlas)" /></picture>
+  <a href="mailto:brianferrarif@gmail.com?subject=Hi%20Brian"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-email.svg" /><img src="assets/contact-email.svg" width="40%" alt="Email: brianferrarif@gmail.com" /></picture></a>
+  <a href="https://www.linkedin.com/in/brian-franck-/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-linkedin.svg" /><img src="assets/contact-linkedin.svg" width="40%" alt="LinkedIn: in/brian-franck-" /></picture></a>
+  <br/>
+  <a href="https://www.instagram.com/_brian.franck_/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-instagram.svg" /><img src="assets/contact-instagram.svg" width="40%" alt="Instagram: @_brian.franck_" /></picture></a>
+  <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-discord.svg" /><img src="assets/contact-discord.svg" width="40%" alt="Discord: username ._.atllas._. (display name Atlas)" /></picture>
 </p>
 
 <p align="center">

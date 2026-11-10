@@ -24,7 +24,7 @@ LIGHT = {
     "#0e7490": "#155e75", "#9fb8c8": "#7b8c99", "#ecfeff": "#0891b2", "#e0fbff": "#0891b2",
     "#f0fdff": "#0891b2", "#06121a": "#eef4f7", "#0b151e": "#eaeff3", "#08111a": "#eef4f7",
     "#0d2231": "#dbe4ea", "#16384a": "#c3d0d9", "#2a4a5e": "#b3c2cd", "#2b5566": "#9db1bd",
-    "#a9bccb": "#57636f", "#f472b6": "#be185d", "#818cf8": "#4338ca", "#0e2a38": "#d3e3ea",
+    "#a9bccb": "#57636f", "#f472b6": "#be185d", "#60a5fa": "#1d4ed8", "#818cf8": "#4338ca", "#0e2a38": "#d3e3ea",
     "#0e5a6e": "#7fb7c6", "#e6f6fb": "#17212b", "#ecfccb": "#3f6212",
 }
 _HEX = re.compile("|".join(re.escape(k) for k in LIGHT), re.I)
