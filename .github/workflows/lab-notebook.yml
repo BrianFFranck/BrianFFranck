@@ -1,6 +1,7 @@
 name: Lab notebook card
 
 # Rebuilds assets/lab.svg from the Iris experiment log, so the profile shows the latest real run.
+# Iris triggers this right after a full training run (workflow_dispatch); the schedule is a safety net.
 on:
   schedule:
     - cron: "17 6 * * *"
@@ -21,7 +22,11 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch the experiment log
-        run: curl -fsSL https://raw.githubusercontent.com/BrianFFranck/IRIS/main/experiments.md -o "$RUNNER_TEMP/experiments.md"
+        # the API always serves the newest commit; the raw CDN can lag a few minutes behind a push
+        run: >
+          curl -fsSL -H "Accept: application/vnd.github.raw" -H "Authorization: Bearer ${{ github.token }}"
+          https://api.github.com/repos/BrianFFranck/IRIS/contents/experiments.md
+          -o "$RUNNER_TEMP/experiments.md"
       - name: Build the card
         run: python tools/lab_card.py "$RUNNER_TEMP/experiments.md" assets README.md
       - name: Commit if it changed
