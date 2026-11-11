@@ -16,13 +16,13 @@
 <text x="500.0" y="26" font-size="12" fill="#57636f" text-anchor="middle" font-weight="400" letter-spacing="2">sort -k qwk experiments.md | tail -n 1</text>
 <text x="976" y="26" font-size="12" fill="#57636f" text-anchor="end" font-weight="400" letter-spacing="1.5">BEST RUN 2026-11-11</text>
 <text x="30" y="76" font-size="11" fill="#0e7490" text-anchor="start" font-weight="400" letter-spacing="1.5">BEST RUN SO FAR  ·  VALIDATION FOLDS</text>
-<text x="30" y="100" font-size="14" fill="#17212b" text-anchor="start" font-weight="700" letter-spacing="0">meanmax (baseline)</text>
-<text x="28" y="178" font-size="76" fill="#17212b" text-anchor="start" font-weight="300" letter-spacing="2">0.49</text>
-<text x="222" y="150" font-size="20" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="0">± 0.11</text>
+<text x="30" y="100" font-size="14" fill="#17212b" text-anchor="start" font-weight="700" letter-spacing="0">abmil (gated attention MIL)</text>
+<text x="28" y="178" font-size="76" fill="#17212b" text-anchor="start" font-weight="300" letter-spacing="2">0.69</text>
+<text x="222" y="150" font-size="20" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="0">± 0.03</text>
 <text x="222" y="176" font-size="12" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="2">QWK</text>
-<text x="30" y="208" font-size="11" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="1">WEIGHTED KAPPA  ·  5-FOLD  ·  298 SLIDES</text>
+<text x="30" y="208" font-size="11" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="1">WEIGHTED KAPPA  ·  5-FOLD  ·  998 SLIDES</text>
 <rect x="30" y="222" width="128" height="22" rx="3" fill="#4d7c0f" fill-opacity=".1" stroke="#4d7c0f"/>
-<text x="41" y="237" font-size="11" fill="#4d7c0f" text-anchor="start" font-weight="700" letter-spacing="1.2">NUMBER TO BEAT</text>
+<text x="41" y="237" font-size="11" fill="#4d7c0f" text-anchor="start" font-weight="700" letter-spacing="1.2">BEST OF 4 RUNS</text>
 <text x="392" y="76" font-size="11" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="1.5">PER FOLD</text>
 <line x1="392" y1="184.0" x2="642" y2="184.0" stroke="#e1e7ed"/>
 <text x="648" y="187.5" font-size="9.5" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="0">0.25</text>
@@ -33,35 +33,35 @@
 <line x1="392" y1="94.0" x2="642" y2="94.0" stroke="#e1e7ed"/>
 <text x="648" y="97.5" font-size="9.5" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="0">1</text>
 <line x1="392" y1="214" x2="642" y2="214" stroke="#d0d7de"/>
-<rect x="402.0" y="137.2" width="30.0" height="76.8" rx="2" fill="#0e7490" fill-opacity=".85"><animate attributeName="height" values="0;76.8" dur=".7s" begin="0.00s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;137.2" dur=".7s" begin="0.00s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
-<text x="417.0" y="131.2" font-size="11" fill="#17212b" text-anchor="middle" font-weight="700" letter-spacing="0">0.64</text>
+<rect x="402.0" y="130.0" width="30.0" height="84.0" rx="2" fill="#0e7490" fill-opacity=".85"><animate attributeName="height" values="0;84.0" dur=".7s" begin="0.00s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;130.0" dur=".7s" begin="0.00s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="417.0" y="124.0" font-size="11" fill="#17212b" text-anchor="middle" font-weight="700" letter-spacing="0">0.70</text>
 <text x="417.0" y="229" font-size="9.5" fill="#57636f" text-anchor="middle" font-weight="400" letter-spacing="1">F0</text>
-<rect x="452.0" y="175.6" width="30.0" height="38.4" rx="2" fill="#0e7490" fill-opacity=".85"><animate attributeName="height" values="0;38.4" dur=".7s" begin="0.12s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;175.6" dur=".7s" begin="0.12s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
-<text x="467.0" y="169.6" font-size="11" fill="#17212b" text-anchor="middle" font-weight="700" letter-spacing="0">0.32</text>
+<rect x="452.0" y="131.2" width="30.0" height="82.8" rx="2" fill="#0e7490" fill-opacity=".85"><animate attributeName="height" values="0;82.8" dur=".7s" begin="0.12s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;131.2" dur=".7s" begin="0.12s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="467.0" y="125.2" font-size="11" fill="#17212b" text-anchor="middle" font-weight="700" letter-spacing="0">0.69</text>
 <text x="467.0" y="229" font-size="9.5" fill="#57636f" text-anchor="middle" font-weight="400" letter-spacing="1">F1</text>
-<rect x="502.0" y="154.0" width="30.0" height="60.0" rx="2" fill="#0e7490" fill-opacity=".85"><animate attributeName="height" values="0;60.0" dur=".7s" begin="0.24s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;154.0" dur=".7s" begin="0.24s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
-<text x="517.0" y="148.0" font-size="11" fill="#17212b" text-anchor="middle" font-weight="700" letter-spacing="0">0.50</text>
+<rect x="502.0" y="137.2" width="30.0" height="76.8" rx="2" fill="#0e7490" fill-opacity=".85"><animate attributeName="height" values="0;76.8" dur=".7s" begin="0.24s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;137.2" dur=".7s" begin="0.24s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="517.0" y="131.2" font-size="11" fill="#17212b" text-anchor="middle" font-weight="700" letter-spacing="0">0.64</text>
 <text x="517.0" y="229" font-size="9.5" fill="#57636f" text-anchor="middle" font-weight="400" letter-spacing="1">F2</text>
-<rect x="552.0" y="145.6" width="30.0" height="68.4" rx="2" fill="#0e7490" fill-opacity=".85"><animate attributeName="height" values="0;68.4" dur=".7s" begin="0.36s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;145.6" dur=".7s" begin="0.36s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
-<text x="567.0" y="139.6" font-size="11" fill="#17212b" text-anchor="middle" font-weight="700" letter-spacing="0">0.57</text>
+<rect x="552.0" y="130.0" width="30.0" height="84.0" rx="2" fill="#0e7490" fill-opacity=".85"><animate attributeName="height" values="0;84.0" dur=".7s" begin="0.36s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;130.0" dur=".7s" begin="0.36s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="567.0" y="124.0" font-size="11" fill="#17212b" text-anchor="middle" font-weight="700" letter-spacing="0">0.70</text>
 <text x="567.0" y="229" font-size="9.5" fill="#57636f" text-anchor="middle" font-weight="400" letter-spacing="1">F3</text>
-<rect x="602.0" y="161.2" width="30.0" height="52.8" rx="2" fill="#0e7490" fill-opacity=".85"><animate attributeName="height" values="0;52.8" dur=".7s" begin="0.48s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;161.2" dur=".7s" begin="0.48s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
-<text x="617.0" y="155.2" font-size="11" fill="#17212b" text-anchor="middle" font-weight="700" letter-spacing="0">0.44</text>
+<rect x="602.0" y="126.4" width="30.0" height="87.6" rx="2" fill="#0e7490" fill-opacity=".85"><animate attributeName="height" values="0;87.6" dur=".7s" begin="0.48s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;126.4" dur=".7s" begin="0.48s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="617.0" y="120.4" font-size="11" fill="#17212b" text-anchor="middle" font-weight="700" letter-spacing="0">0.73</text>
 <text x="617.0" y="229" font-size="9.5" fill="#57636f" text-anchor="middle" font-weight="400" letter-spacing="1">F4</text>
-<line x1="392" y1="155.2" x2="642" y2="155.2" stroke="#4d7c0f" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="392" y1="131.2" x2="642" y2="131.2" stroke="#4d7c0f" stroke-width="1.2" stroke-dasharray="4 4"/>
 <rect x="690" y="62" width="280" height="84" rx="3" fill="#ffffff" stroke="#d0d7de"/>
 <text x="704" y="82" font-size="10.5" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="1.2">ISUP 2 SLIDES CALLED ISUP 2</text>
-<text x="704" y="114" font-size="28" fill="#be123c" text-anchor="start" font-weight="700" letter-spacing="1">0 / 37</text>
-<text x="704" y="134" font-size="11" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="0">the boundary Iris exists to fix</text>
+<text x="704" y="114" font-size="28" fill="#4d7c0f" text-anchor="start" font-weight="700" letter-spacing="1">19 / 125</text>
+<text x="704" y="134" font-size="11" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="0">the boundary Iris targets</text>
 <rect x="690" y="158" width="280" height="84" rx="3" fill="#ffffff" stroke="#d0d7de"/>
 <text x="704" y="178" font-size="10.5" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="1.2">CANCER KEPT BY TILING</text>
 <text x="704" y="210" font-size="28" fill="#4d7c0f" text-anchor="start" font-weight="700" letter-spacing="1">0.94 · 0.95</text>
 <text x="704" y="230" font-size="11" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="0">median recall, Karolinska · Radboud</text>
 <text x="30" y="276" font-size="11" fill="#b45309" text-anchor="start" font-weight="700" letter-spacing="1.5">FINDING</text>
-<text x="118" y="276" font-size="13" fill="#17212b" text-anchor="start" font-weight="400" letter-spacing="0">Same model as the row below, re-measured after setting the held-out test set aside. Not an</text>
-<text x="118" y="294" font-size="13" fill="#17212b" text-anchor="start" font-weight="400" letter-spacing="0">improvement: +0.02 is far smaller than the spread between folds (±0.11). Still never predicts GG2…</text>
+<text x="118" y="276" font-size="13" fill="#17212b" text-anchor="start" font-weight="400" letter-spacing="0">First attention model, on the same slides and folds as the baseline below. QWK +0.08: better in 4 of</text>
+<text x="118" y="294" font-size="13" fill="#17212b" text-anchor="start" font-weight="400" letter-spacing="0">5 folds and level in the fifth, and the gain is larger than the spread between folds. GG2 caught:…</text>
 <text x="30" y="320" font-size="11" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="1.5">NEXT</text>
-<text x="118" y="320" font-size="13" fill="#17212b" text-anchor="start" font-weight="400" letter-spacing="0">Gated attention MIL (abmil.py): does it start recognising GG2?</text>
+<text x="118" y="320" font-size="13" fill="#17212b" text-anchor="start" font-weight="400" letter-spacing="0">Boundary-weighted loss (GG1 ↔ GG2 errors cost more)</text>
 <rect x="30" y="358" width="164" height="46" rx="3" fill="#ffffff" stroke="#4d7c0f"/>
 <path d="M172 381 l5 5 l9 -10" fill="none" stroke="#4d7c0f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="42" y="378" font-size="13" fill="#17212b" text-anchor="start" font-weight="700" letter-spacing="0.8">DATA</text>
@@ -80,13 +80,14 @@
 <text x="430" y="394" font-size="10.5" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="0">mean/max pooling</text>
 <line x1="586" y1="381" x2="600" y2="381" stroke="#4d7c0f" stroke-width="2"/>
 <polygon points="599,375 609,381 599,387" fill="#4d7c0f"/>
-<rect x="612" y="358" width="164" height="46" rx="3" fill="#ffffff" stroke="#0e7490" stroke-width="1.5"/>
-<rect x="612" y="358" width="164" height="46" rx="3" fill="#0e7490" fill-opacity=".1" class="pulse"/>
+<rect x="612" y="358" width="164" height="46" rx="3" fill="#ffffff" stroke="#4d7c0f"/>
+<path d="M754 381 l5 5 l9 -10" fill="none" stroke="#4d7c0f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="624" y="378" font-size="13" fill="#17212b" text-anchor="start" font-weight="700" letter-spacing="0.8">ATTENTION MIL</text>
-<text x="624" y="394" font-size="10.5" fill="#0e7490" text-anchor="start" font-weight="400" letter-spacing="0">up next</text>
-<line x1="780" y1="381" x2="794" y2="381" stroke="#d0d7de" stroke-width="2"/>
-<polygon points="793,375 803,381 793,387" fill="#d0d7de"/>
-<rect x="806" y="358" width="164" height="46" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-<text x="818" y="378" font-size="13" fill="#57636f" text-anchor="start" font-weight="700" letter-spacing="0.8">BOUNDARY LOSS</text>
-<text x="818" y="394" font-size="10.5" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="0">ISUP 1 vs 2</text>
+<text x="624" y="394" font-size="10.5" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="0">learns which tiles</text>
+<line x1="780" y1="381" x2="794" y2="381" stroke="#4d7c0f" stroke-width="2"/>
+<polygon points="793,375 803,381 793,387" fill="#4d7c0f"/>
+<rect x="806" y="358" width="164" height="46" rx="3" fill="#ffffff" stroke="#0e7490" stroke-width="1.5"/>
+<rect x="806" y="358" width="164" height="46" rx="3" fill="#0e7490" fill-opacity=".1" class="pulse"/>
+<text x="818" y="378" font-size="13" fill="#17212b" text-anchor="start" font-weight="700" letter-spacing="0.8">BOUNDARY LOSS</text>
+<text x="818" y="394" font-size="10.5" fill="#0e7490" text-anchor="start" font-weight="400" letter-spacing="0">up next</text>
 </svg>

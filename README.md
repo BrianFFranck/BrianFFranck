@@ -38,7 +38,7 @@
 
 <p align="center">
 <!-- lab:start -->
-<b>Where Iris is today (2026-11-11).</b> Best run so far: <code>meanmax (baseline)</code> on 298 PANDA slides, validation QWK <b>0.49 ± 0.11</b>, with 0 of 37 ISUP 2 slides called ISUP 2. Tiling keeps a median 0.94 to 0.95 of the cancer tissue. Next: gated attention MIL (abmil.py): does it start recognising GG2?
+<b>Where Iris is today (2026-11-11).</b> Best run so far: <code>abmil (gated attention MIL)</code> on 998 PANDA slides, validation QWK <b>0.69 ± 0.03</b>, with 19 of 125 ISUP 2 slides called ISUP 2. Tiling keeps a median 0.94 to 0.95 of the cancer tissue. Next: boundary-weighted loss (GG1 ↔ GG2 errors cost more)
 <!-- lab:end -->
 <br/>
 <sub>These are validation numbers from early R&amp;D, not test results. The card and this line show the best run so far and update themselves from the <a href="https://github.com/BrianFFranck/IRIS/blob/main/experiments.md">experiment log</a>; every run, including the ones that don't work, is in the log.</sub>
