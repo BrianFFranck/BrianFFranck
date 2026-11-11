@@ -14,13 +14,13 @@
 <rect x="24" y="16" width="8" height="12" fill="#22d3ee" class="blink"/>
 <text x="40" y="26" font-size="12" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="1.5">IRIS / LAB NOTEBOOK</text>
 <text x="500.0" y="26" font-size="12" fill="#5f7385" text-anchor="middle" font-weight="400" letter-spacing="2">sort -k qwk experiments.md | tail -n 1</text>
-<text x="976" y="26" font-size="12" fill="#5f7385" text-anchor="end" font-weight="400" letter-spacing="1.5">BEST RUN 2026-11-10</text>
+<text x="976" y="26" font-size="12" fill="#5f7385" text-anchor="end" font-weight="400" letter-spacing="1.5">BEST RUN 2026-11-11</text>
 <text x="30" y="76" font-size="11" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="1.5">BEST RUN SO FAR  ·  VALIDATION FOLDS</text>
 <text x="30" y="100" font-size="14" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0">meanmax (baseline)</text>
-<text x="28" y="178" font-size="76" fill="#d6e4ec" text-anchor="start" font-weight="300" letter-spacing="2">0.47</text>
+<text x="28" y="178" font-size="76" fill="#d6e4ec" text-anchor="start" font-weight="300" letter-spacing="2">0.49</text>
 <text x="222" y="150" font-size="20" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">± 0.11</text>
 <text x="222" y="176" font-size="12" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="2">QWK</text>
-<text x="30" y="208" font-size="11" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="1">WEIGHTED KAPPA  ·  5-FOLD  ·  299 SLIDES</text>
+<text x="30" y="208" font-size="11" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="1">WEIGHTED KAPPA  ·  5-FOLD  ·  298 SLIDES</text>
 <rect x="30" y="222" width="128" height="22" rx="3" fill="#a3e635" fill-opacity=".1" stroke="#a3e635"/>
 <text x="41" y="237" font-size="11" fill="#a3e635" text-anchor="start" font-weight="700" letter-spacing="1.2">NUMBER TO BEAT</text>
 <text x="392" y="76" font-size="11" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="1.5">PER FOLD</text>
@@ -33,33 +33,33 @@
 <line x1="392" y1="94.0" x2="642" y2="94.0" stroke="#12202b"/>
 <text x="648" y="97.5" font-size="9.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">1</text>
 <line x1="392" y1="214" x2="642" y2="214" stroke="#1a2a36"/>
-<rect x="402.0" y="157.6" width="30.0" height="56.4" rx="2" fill="#22d3ee" fill-opacity=".85"><animate attributeName="height" values="0;56.4" dur=".7s" begin="0.00s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;157.6" dur=".7s" begin="0.00s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
-<text x="417.0" y="151.6" font-size="11" fill="#d6e4ec" text-anchor="middle" font-weight="700" letter-spacing="0">0.47</text>
+<rect x="402.0" y="137.2" width="30.0" height="76.8" rx="2" fill="#22d3ee" fill-opacity=".85"><animate attributeName="height" values="0;76.8" dur=".7s" begin="0.00s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;137.2" dur=".7s" begin="0.00s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="417.0" y="131.2" font-size="11" fill="#d6e4ec" text-anchor="middle" font-weight="700" letter-spacing="0">0.64</text>
 <text x="417.0" y="229" font-size="9.5" fill="#5f7385" text-anchor="middle" font-weight="400" letter-spacing="1">F0</text>
-<rect x="452.0" y="167.2" width="30.0" height="46.8" rx="2" fill="#22d3ee" fill-opacity=".85"><animate attributeName="height" values="0;46.8" dur=".7s" begin="0.12s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;167.2" dur=".7s" begin="0.12s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
-<text x="467.0" y="161.2" font-size="11" fill="#d6e4ec" text-anchor="middle" font-weight="700" letter-spacing="0">0.39</text>
+<rect x="452.0" y="175.6" width="30.0" height="38.4" rx="2" fill="#22d3ee" fill-opacity=".85"><animate attributeName="height" values="0;38.4" dur=".7s" begin="0.12s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;175.6" dur=".7s" begin="0.12s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="467.0" y="169.6" font-size="11" fill="#d6e4ec" text-anchor="middle" font-weight="700" letter-spacing="0">0.32</text>
 <text x="467.0" y="229" font-size="9.5" fill="#5f7385" text-anchor="middle" font-weight="400" letter-spacing="1">F1</text>
-<rect x="502.0" y="148.0" width="30.0" height="66.0" rx="2" fill="#22d3ee" fill-opacity=".85"><animate attributeName="height" values="0;66.0" dur=".7s" begin="0.24s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;148.0" dur=".7s" begin="0.24s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
-<text x="517.0" y="142.0" font-size="11" fill="#d6e4ec" text-anchor="middle" font-weight="700" letter-spacing="0">0.55</text>
+<rect x="502.0" y="154.0" width="30.0" height="60.0" rx="2" fill="#22d3ee" fill-opacity=".85"><animate attributeName="height" values="0;60.0" dur=".7s" begin="0.24s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;154.0" dur=".7s" begin="0.24s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="517.0" y="148.0" font-size="11" fill="#d6e4ec" text-anchor="middle" font-weight="700" letter-spacing="0">0.50</text>
 <text x="517.0" y="229" font-size="9.5" fill="#5f7385" text-anchor="middle" font-weight="400" letter-spacing="1">F2</text>
-<rect x="552.0" y="139.6" width="30.0" height="74.4" rx="2" fill="#22d3ee" fill-opacity=".85"><animate attributeName="height" values="0;74.4" dur=".7s" begin="0.36s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;139.6" dur=".7s" begin="0.36s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
-<text x="567.0" y="133.6" font-size="11" fill="#d6e4ec" text-anchor="middle" font-weight="700" letter-spacing="0">0.62</text>
+<rect x="552.0" y="145.6" width="30.0" height="68.4" rx="2" fill="#22d3ee" fill-opacity=".85"><animate attributeName="height" values="0;68.4" dur=".7s" begin="0.36s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;145.6" dur=".7s" begin="0.36s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="567.0" y="139.6" font-size="11" fill="#d6e4ec" text-anchor="middle" font-weight="700" letter-spacing="0">0.57</text>
 <text x="567.0" y="229" font-size="9.5" fill="#5f7385" text-anchor="middle" font-weight="400" letter-spacing="1">F3</text>
-<rect x="602.0" y="175.6" width="30.0" height="38.4" rx="2" fill="#22d3ee" fill-opacity=".85"><animate attributeName="height" values="0;38.4" dur=".7s" begin="0.48s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;175.6" dur=".7s" begin="0.48s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
-<text x="617.0" y="169.6" font-size="11" fill="#d6e4ec" text-anchor="middle" font-weight="700" letter-spacing="0">0.32</text>
+<rect x="602.0" y="161.2" width="30.0" height="52.8" rx="2" fill="#22d3ee" fill-opacity=".85"><animate attributeName="height" values="0;52.8" dur=".7s" begin="0.48s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/><animate attributeName="y" values="214;161.2" dur=".7s" begin="0.48s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="617.0" y="155.2" font-size="11" fill="#d6e4ec" text-anchor="middle" font-weight="700" letter-spacing="0">0.44</text>
 <text x="617.0" y="229" font-size="9.5" fill="#5f7385" text-anchor="middle" font-weight="400" letter-spacing="1">F4</text>
-<line x1="392" y1="157.6" x2="642" y2="157.6" stroke="#a3e635" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="392" y1="155.2" x2="642" y2="155.2" stroke="#a3e635" stroke-width="1.2" stroke-dasharray="4 4"/>
 <rect x="690" y="62" width="280" height="84" rx="3" fill="#0a121a" stroke="#1a2a36"/>
 <text x="704" y="82" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="1.2">ISUP 2 SLIDES CALLED ISUP 2</text>
-<text x="704" y="114" font-size="28" fill="#fb7185" text-anchor="start" font-weight="700" letter-spacing="1">0 / 38</text>
+<text x="704" y="114" font-size="28" fill="#fb7185" text-anchor="start" font-weight="700" letter-spacing="1">0 / 37</text>
 <text x="704" y="134" font-size="11" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">the boundary Iris exists to fix</text>
 <rect x="690" y="158" width="280" height="84" rx="3" fill="#0a121a" stroke="#1a2a36"/>
 <text x="704" y="178" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="1.2">CANCER KEPT BY TILING</text>
 <text x="704" y="210" font-size="28" fill="#a3e635" text-anchor="start" font-weight="700" letter-spacing="1">0.94 · 0.95</text>
 <text x="704" y="230" font-size="11" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">median recall, Karolinska · Radboud</text>
 <text x="30" y="276" font-size="11" fill="#fbbf24" text-anchor="start" font-weight="700" letter-spacing="1.5">FINDING</text>
-<text x="118" y="276" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">Never predicts GG2; most GG2 called ISUP 0 (13) or 1 (15). Train QWK ≈ val QWK, so the model is</text>
-<text x="118" y="294" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">underfitting rather than overfitting. Number to beat.</text>
+<text x="118" y="276" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">Same model as the row below, re-measured after setting the held-out test set aside. Not an</text>
+<text x="118" y="294" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">improvement: +0.02 is far smaller than the spread between folds (±0.11). Still never predicts GG2…</text>
 <text x="30" y="320" font-size="11" fill="#22d3ee" text-anchor="start" font-weight="700" letter-spacing="1.5">NEXT</text>
 <text x="118" y="320" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">Gated attention MIL (abmil.py): does it start recognising GG2?</text>
 <rect x="30" y="358" width="164" height="46" rx="3" fill="#0a121a" stroke="#a3e635"/>
