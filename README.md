@@ -105,10 +105,6 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/fiber-optic.svg" /><img src="assets/fiber-optic.svg" width="100%" alt="Project 04, fiber-optic sensing, a research interest: label-free optical biosensing where sound shifts the phase of light in a fiber, enabling compact EMI-immune ultrasound probes." /></picture>
-
-<br/>
-
 <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/processes.svg" /><img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG data audit (shipped), myocardium cell graph (shipped), optoacoustic sensing (research), medical imaging (learning), Python (running)." /></picture>
 
 <br/>
@@ -134,11 +130,3 @@
 <p align="center">
   <sub>Discord <code>._.atllas._.</code> (Atlas) &nbsp;·&nbsp; Lisbon, Portugal</sub>
 </p>
-
-<br/>
-
-<div align="center">
-
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/footer.svg" /><img src="assets/footer.svg" width="100%" alt="Built with Python, curiosity and a lot of data." /></picture>
-
-</div>
