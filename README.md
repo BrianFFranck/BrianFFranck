@@ -105,7 +105,7 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/processes.svg" /><img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG data audit (shipped), myocardium cell graph (shipped), optoacoustic sensing (research), medical imaging (learning), Python (running)." /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/processes.svg" /><img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG data audit (shipped), myocardium cell graph (shipped), medical imaging (learning), Python (running)." /></picture>
 
 <br/>
 
