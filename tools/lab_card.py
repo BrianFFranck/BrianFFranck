@@ -12,6 +12,8 @@ the existing card is left untouched. Standard library only.
 import os, re, sys, textwrap
 from xml.sax.saxutils import escape
 
+from calm import calm
+
 FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace"
 CY, LIME, AMBER, ROSE = "#22d3ee", "#a3e635", "#fbbf24", "#fb7185"
 FG, MUTED, BG, PANEL, LINE, DIM = "#d6e4ec", "#5f7385", "#070b10", "#0a121a", "#1a2a36", "#12202b"
@@ -232,7 +234,7 @@ def main():
     if d is None:
         print("no run with a 'mean ± std' QWK found; card left unchanged")
         return
-    s = card(d)
+    s = calm(card(d), 6)
     os.makedirs(os.path.join(out, "light"), exist_ok=True)
     for path, text in ((os.path.join(out, "lab.svg"), s), (os.path.join(out, "light", "lab.svg"), to_light(s))):
         with open(path, "w", encoding="utf-8") as fh:

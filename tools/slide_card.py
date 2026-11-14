@@ -15,6 +15,7 @@ import pandas as pd
 from PIL import Image
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from calm import calm
 from lab_card import AMBER, BG, CY, DIM, FG, FONT, LIME, LINE, MUTED, PANEL, T, to_light
 
 LEVEL, TILE = 1, 256  # same as iris.config.TileConfig
@@ -115,6 +116,7 @@ def main():
 {chr(10).join(b)}
 </svg>
 '''
+    svg = calm(svg, 6)
     os.makedirs(os.path.join(out, "light"), exist_ok=True)
     for path, text in ((os.path.join(out, "slide.svg"), svg), (os.path.join(out, "light", "slide.svg"), to_light(svg))):
         with open(path, "w", encoding="utf-8") as fh:

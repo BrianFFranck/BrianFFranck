@@ -1,30 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 76" width="320" height="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace">
 <defs>
 <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#e1e7ed"/></pattern>
-<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<filter id="softU" filterUnits="userSpaceOnUse" x="-600" y="-600" width="2400" height="2000"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <linearGradient id="cyg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#155e75"/><stop offset=".5" stop-color="#0e7490"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
 
 <style>
-  .blink{animation:blink 1.1s steps(2,start) infinite}
+  .blink{animation:blink 1.1s steps(2,start) 9}
   @keyframes blink{to{visibility:hidden}}
-  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  .pulse{animation:pulse 2.4s ease-in-out 4.5}
   @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
-  .flow{stroke-dasharray:5 6;animation:flow 1s linear infinite}
+  .flow{stroke-dasharray:5 6;animation:flow 1s linear 10}
   @keyframes flow{to{stroke-dashoffset:-22}}
 
 </style>
 </defs>
 <rect x="0.5" y="0.5" width="319" height="75" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
 <rect x="0.5" y="0.5" width="319" height="75" rx="8" fill="url(#dots)"/>
-<rect x="0.5" y="0.5" width="319" height="75" rx="8" fill="none" stroke="#0e7490" stroke-width="1.5" pathLength="100" stroke-dasharray="14 86" filter="url(#softU)"><animate attributeName="stroke-dashoffset" values="0;-100" dur="5s" repeatCount="indefinite"/></rect>
+<rect x="0.5" y="0.5" width="319" height="75" rx="8" fill="none" stroke="#0e7490" stroke-width="1.5" pathLength="100" stroke-dasharray="14 86"><animate attributeName="stroke-dashoffset" values="0;-100" dur="5s" repeatCount="indefinite" end="9.75s" fill="freeze"/></rect>
 <rect x="14" y="14" width="48" height="48" rx="8" fill="#0e7490" fill-opacity=".1" stroke="#0e7490" stroke-opacity=".5"/>
 <rect x="25" y="29" width="26" height="18" rx="2.5" fill="none" stroke="#0e7490" stroke-width="2"/>
-<path d="M26 31 L38 40 L50 31" fill="none" stroke="#0e7490" stroke-width="2" stroke-linejoin="round"><animate attributeName="d" values="M26 31 L38 40 L50 31;M26 31 L38 37 L50 31;M26 31 L38 40 L50 31" dur="2.4s" repeatCount="indefinite"/></path>
+<path d="M26 31 L38 40 L50 31" fill="none" stroke="#0e7490" stroke-width="2" stroke-linejoin="round"><animate attributeName="d" values="M26 31 L38 40 L50 31;M26 31 L38 37 L50 31;M26 31 L38 40 L50 31" dur="2.4s" repeatCount="indefinite" end="9.75s" fill="freeze"/></path>
 <circle cx="51" cy="29" r="4" fill="#4d7c0f" class="pulse"/>
 <text x="78" y="28" font-size="10.5" fill="#57636f" text-anchor="start" font-weight="400" letter-spacing="1.5">EMAIL</text>
 <text x="78" y="48" font-size="14" fill="#17212b" text-anchor="start" font-weight="700" letter-spacing="0">brianferrarif@gmail.com</text>
 <text x="78" y="64" font-size="10.5" fill="#0e7490" text-anchor="start" font-weight="400" letter-spacing="0.5">click to write me</text>
-<path d="M298 33 l6 5 l-6 5" fill="none" stroke="#0e7490" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><animateTransform attributeName="transform" type="translate" values="0 0;4 0;0 0" dur="1.6s" repeatCount="indefinite"/></path>
+<path d="M298 33 l6 5 l-6 5" fill="none" stroke="#0e7490" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><animateTransform attributeName="transform" type="translate" values="0 0;4 0;0 0" dur="1.6s" repeatCount="indefinite" end="9.75s" fill="freeze"/></path>
 </svg>
