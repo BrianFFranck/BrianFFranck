@@ -234,7 +234,7 @@ def main():
     if d is None:
         print("no run with a 'mean ± std' QWK found; card left unchanged")
         return
-    s = calm(card(d), 6)
+    s = calm(card(d))
     os.makedirs(os.path.join(out, "light"), exist_ok=True)
     for path, text in ((os.path.join(out, "lab.svg"), s), (os.path.join(out, "light", "lab.svg"), to_light(s))):
         with open(path, "w", encoding="utf-8") as fh:

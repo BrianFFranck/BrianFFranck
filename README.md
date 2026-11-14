@@ -105,6 +105,12 @@
 
 <div align="center">
 
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/rppg.svg" /><img src="assets/rppg.svg" width="100%" alt="Project 04, rPPG vitals, a personal project: heart rate and breathing rate from an ordinary webcam. MediaPipe tracks the face, the forehead and cheeks give a mean skin colour per frame, POS turns it into a pulse signal and the spectrum peak gives beats per minute. Illustration with example values; not a medical device." /></picture>
+
+</div>
+
+<div align="center">
+
 <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/processes.svg" /><img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG data audit (shipped), myocardium cell graph (shipped), medical imaging (learning), Python (running)." /></picture>
 
 <br/>

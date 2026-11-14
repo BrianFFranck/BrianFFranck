@@ -4,11 +4,11 @@ GitHub shows each card as an <img>, and a phone redraws the whole card on every 
 anything in it moves. Blur filters on moving parts make every one of those redraws expensive.
 calm() keeps the look but bounds the cost:
 
-* every looping SMIL animation keeps running until `end` seconds and then holds the frame it
-  shows at that moment (end + fill="freeze"), so the card settles into one chosen still frame;
-* the shared CSS loops (cursor blink, pulse, flowing dashes) run a few times and then stop;
 * blur filters are removed: glowing dots get a radial-gradient halo instead, everything else
-  is drawn crisp, and filter definitions that are no longer used are dropped.
+  is drawn crisp, and filter definitions that are no longer used are dropped;
+* optionally (end=seconds) every loop runs until that moment and then holds the frame it shows
+  then, so the card stops redrawing. With end=None (the default) the cards keep moving: on a
+  phone a card that stops looks frozen, and without the blurs the loops are cheap.
 
 It is idempotent, so it can run again on a card that was already calmed.
 """
@@ -37,24 +37,14 @@ def _halo(attrs, fid, close, after, defs):
     return f"<circle{attrs}{close}"
 
 
-def calm(svg, end):
-    end = f"{end:g}s"
+def calm(svg, end=None):
+    # undo an earlier settle, so the result depends only on `end`
+    svg = re.sub(r'repeatCount="indefinite" end="[\d.]+s" fill="freeze"', 'repeatCount="indefinite"', svg)
+    svg = re.sub(r'(steps\(2,start\)|2\.4s ease-in-out|1s linear) [\d.]+}', r'\1 infinite}', svg)
+    if end is not None:
+        svg = _settle(svg, end)
 
-    # 1. looping SMIL animations: run until `end`, then hold that frame
-    def hold(m):
-        tag = m.group(0)
-        if ' end="' in tag:
-            return tag
-        return tag.replace('repeatCount="indefinite"', f'repeatCount="indefinite" end="{end}" fill="freeze"')
-    svg = re.sub(r'<animate(?:Transform|Motion)?\b[^>]*repeatCount="indefinite"[^>]*>', hold, svg)
-
-    # 2. CSS loops: a few cycles, then rest (pulse stops on its bright half)
-    secs = float(end[:-1])
-    svg = svg.replace("steps(2,start) infinite", f"steps(2,start) {max(4, round(secs / 1.1))}")
-    svg = svg.replace("2.4s ease-in-out infinite", f"2.4s ease-in-out {max(1, math.floor(secs / 2.4)) + .5:g}")
-    svg = svg.replace("1s linear infinite", f"1s linear {max(2, round(secs))}")
-
-    # 3. blur filters: halos for dots, crisp for the rest
+    # blur filters: halos for dots, crisp for the rest
     defs = {}
     src = svg
     svg = re.sub(r'<circle\b([^>]*?)\s*filter="url\(#(\w+)\)"([^>]*?)(/>|>)',
@@ -66,4 +56,24 @@ def calm(svg, end):
     if defs:
         add = "".join(v for k, v in defs.items() if f'id="{k}"' not in svg)
         svg = svg.replace("</defs>", add + "\n</defs>", 1)
+    return svg
+
+
+def _settle(svg, end):
+    """Loop until `end` seconds, then hold that frame; CSS loops run a few times, then rest."""
+    end = f"{end:g}s"
+
+    def hold(m):
+        tag = m.group(0)
+        if ' end="' in tag:
+            return tag
+        return tag.replace('repeatCount="indefinite"', f'repeatCount="indefinite" end="{end}" fill="freeze"')
+    svg = re.sub(r'<animate(?:Transform|Motion)?\b[^>]*repeatCount="indefinite"[^>]*>', hold, svg)
+
+    # CSS loops: a few cycles, then rest (pulse stops on its bright half)
+    secs = float(end[:-1])
+    svg = svg.replace("steps(2,start) infinite", f"steps(2,start) {max(4, round(secs / 1.1))}")
+    svg = svg.replace("2.4s ease-in-out infinite", f"2.4s ease-in-out {max(1, math.floor(secs / 2.4)) + .5:g}")
+    svg = svg.replace("1s linear infinite", f"1s linear {max(2, round(secs))}")
+
     return svg

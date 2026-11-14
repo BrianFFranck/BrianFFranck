@@ -116,7 +116,7 @@ def main():
 {chr(10).join(b)}
 </svg>
 '''
-    svg = calm(svg, 6)
+    svg = calm(svg)
     os.makedirs(os.path.join(out, "light"), exist_ok=True)
     for path, text in ((os.path.join(out, "slide.svg"), svg), (os.path.join(out, "light", "slide.svg"), to_light(svg))):
         with open(path, "w", encoding="utf-8") as fh:
