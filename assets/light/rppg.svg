@@ -19,12 +19,12 @@
 <rect x="0.5" y="0.5" width="999" height="479" rx="8" fill="url(#dots)"/>
 <line x1="0" y1="40" x2="1000" y2="40" stroke="#d0d7de"/>
 <rect x="24" y="16" width="8" height="12" fill="#0e7490" class="blink"/>
-<text x="40" y="26" font-size="12" fill="#0e7490" text-anchor="start" font-weight="400" letter-spacing="1.5">04 / VITALS</text>
+<text x="40" y="26" font-size="12" fill="#0e7490" text-anchor="start" font-weight="400" letter-spacing="1.5">02 / VITALS</text>
 <text x="500" y="26" font-size="12" fill="#57636f" text-anchor="middle" font-weight="400" letter-spacing="2">MODULE: CONTACTLESS-VITALS</text>
 <text x="976" y="26" font-size="12" fill="#57636f" text-anchor="end" font-weight="400" letter-spacing="1.5">PERSONAL PROJECT</text>
 <path d="M14 454 V466 H26" fill="none" stroke="#0e7490" stroke-width="1.5"/>
 <path d="M986 454 V466 H974" fill="none" stroke="#0e7490" stroke-width="1.5"/>
-<text x="30" y="86" font-size="12" fill="#0e7490" text-anchor="start" font-weight="400" letter-spacing="2">PROJECT 04 / 04</text>
+<text x="30" y="86" font-size="12" fill="#0e7490" text-anchor="start" font-weight="400" letter-spacing="2">PROJECT 02 / 02</text>
 <text x="30" y="148" font-size="64" fill="#17212b" text-anchor="start" font-weight="300" letter-spacing="10">rPPG</text>
 <text x="30" y="218" font-size="64" fill="#57636f" text-anchor="start" font-weight="300" letter-spacing="10">VITALS</text>
 <text x="30" y="262" font-size="14" fill="#17212b" text-anchor="start" font-weight="400" letter-spacing="0">Heart rate and breathing from an ordinary webcam.</text>

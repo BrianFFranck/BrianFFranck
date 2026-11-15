@@ -25,17 +25,6 @@
 
 </div>
 
-<div align="center">
-
-<a href="https://github.com/BrianFFranck/IRIS"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/slide.svg" /><img src="assets/slide.svg" width="100%" alt="A real prostate biopsy from the PANDA dataset, ISUP grade 2, with the 48 tiles Iris keeps drawn on it. Tiles that contain cancer according to the PANDA label mask are outlined in amber. Three of the tiles are shown at the resolution the model reads. Tiling keeps 89% of the tissue and 95% of the cancer on this slide. Slide imagery: Radboud UMC and Karolinska Institutet, CC BY-SA-NC 4.0." /></picture></a>
-
-</div>
-
-<p align="center">
-  <sub>Slide from the PANDA challenge dataset, used for non-commercial research under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-SA-NC 4.0</a>; the overlay is my own work and is shared under the same licence.<br/>
-  Bulten, W., Kartasalo, K., Chen, P.-H. C. et al. <a href="https://doi.org/10.1038/s41591-021-01620-2">Artificial intelligence for diagnosis and Gleason grading of prostate cancer: the PANDA challenge</a>. Nat Med 28, 154–163 (2022).</sub>
-</p>
-
 <p align="center">
 <!-- lab:start -->
 <b>Where Iris is today (2026-11-13).</b> Best run so far: <code>abmil (gated attention MIL)</code> on 998 PANDA slides, validation QWK <b>0.69 ± 0.03</b>, with 17 of 125 ISUP 2 slides called ISUP 2. Tiling keeps a median 0.94 to 0.95 of the cancer tissue. Next: boundary-weighted loss (GG1 ↔ GG2 errors cost more)
@@ -90,28 +79,13 @@
 
 <div align="center">
 
-<a href="https://github.com/BrianFFranck/ecg-data-audit"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/ecg-audit.svg" /><img src="assets/ecg-audit.svg" width="100%" alt="Project 02, ECG audit, a university group project: a reproducible audit of clinical ECG records that flags missing values, duplicate records, implausible values and quality notes without deleting anything. Click to open the repository." /></picture></a>
-
-<br/>
-
-<a href="https://github.com/BrianFFranck/myocardium-histology-network"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/histology.svg" /><img src="assets/histology.svg" width="100%" alt="Project 03, myocardium cell graph, a university group project: simulated H&amp;E heart biopsies turned into a spatial cell network with per-cell morphology, clusters and hubs, built with a grid neighbour search in linear time using only NumPy and Pillow. Click to open the repository." /></picture></a>
-
-</div>
-
-<p align="center">
-  <sub>Projects 02 and 03 are group coursework at Universidade Lusófona, built with Rafael Pereira, Filipe Lopes and Bernardo Margarido:
-  <a href="https://github.com/BrianFFranck/ecg-data-audit">ecg-data-audit</a> &nbsp;·&nbsp; <a href="https://github.com/BrianFFranck/myocardium-histology-network">myocardium-histology-network</a></sub>
-</p>
-
-<div align="center">
-
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/rppg.svg" /><img src="assets/rppg.svg" width="100%" alt="Project 04, rPPG vitals, a personal project: heart rate and breathing rate from an ordinary webcam. MediaPipe tracks the face, the forehead and cheeks give a mean skin colour per frame, POS turns it into a pulse signal and the spectrum peak gives beats per minute. Illustration with example values; not a medical device." /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/rppg.svg" /><img src="assets/rppg.svg" width="100%" alt="Project 02, rPPG vitals, a personal project: heart rate and breathing rate from an ordinary webcam. MediaPipe tracks the face, the forehead and cheeks give a mean skin colour per frame, POS turns it into a pulse signal and the spectrum peak gives beats per minute. Illustration with example values; not a medical device." /></picture>
 
 </div>
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/processes.svg" /><img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG data audit (shipped), myocardium cell graph (shipped), medical imaging (learning), Python (running)." /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/processes.svg" /><img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG data audit (shipped), myocardium cell graph (shipped), rPPG vital signs (shipped), medical imaging (learning), Python (running)." /></picture>
 
 <br/>
 
