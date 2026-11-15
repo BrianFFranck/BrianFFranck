@@ -1,6 +1,6 @@
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/hero.svg" /><img src="assets/hero.svg" width="100%" alt="BRIAN.LAB: Brian Franck, also known as Atlas, with a neural network passing signals from BIO to AI. BSc student in Computational Biomedicine &amp; AI at Universidade Lusófona. Now building Iris, a Gleason grading AI." /></picture>
+<img src="assets/hero.svg" width="100%" alt="BRIAN.LAB: Brian Franck, also known as Atlas, with a neural network passing signals from BIO to AI. BSc student in Computational Biomedicine &amp; AI at Universidade Lusófona. Now building Iris, a Gleason grading AI." />
 
 </div>
 
@@ -17,11 +17,11 @@
 
 <div align="center">
 
-<a href="https://github.com/BrianFFranck/IRIS"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/iris.svg" /><img src="assets/iris.svg" width="100%" alt="Project 01, Iris: Gleason grading of prostate biopsies with attention multiple instance learning on the PANDA dataset, targeting the ISUP Grade Group 1 vs 2 boundary. Stage: early R&amp;D. Click to open the repository." /></picture></a>
+<a href="https://github.com/BrianFFranck/IRIS"><img src="assets/iris.svg" width="100%" alt="Project 01, Iris: Gleason grading of prostate biopsies with attention multiple instance learning on the PANDA dataset, targeting the ISUP Grade Group 1 vs 2 boundary. Stage: early R&amp;D. Click to open the repository." /></a>
 
 <br/>
 
-<a href="https://github.com/BrianFFranck/IRIS/blob/main/experiments.md"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/lab.svg" /><img src="assets/lab.svg" width="100%" alt="Iris lab notebook: the best real run so far from the experiment log, with validation QWK per fold, how many ISUP 2 slides were recognised, how much cancer the tiling keeps, the main finding, what comes next and which stages are done. Updated automatically. Click to open the experiment log." /></picture></a>
+<a href="https://github.com/BrianFFranck/IRIS/blob/main/experiments.md"><img src="assets/lab.svg" width="100%" alt="Iris lab notebook: the best real run so far from the experiment log, with validation QWK per fold, how many ISUP 2 slides were recognised, how much cancer the tiling keeps, the main finding, what comes next and which stages are done. Updated automatically. Click to open the experiment log." /></a>
 
 </div>
 
@@ -35,7 +35,7 @@
 
 <div align="center">
 
-<a href="https://github.com/BrianFFranck/IRIS"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/iris-vision.svg" /><img src="assets/iris-vision.svg" width="100%" alt="Iris vision, a concept mock-up with illustrative values: biopsy cores where Iris marks the three regions it weighed most, zoomed crops showing pattern 3 glands and one small possible pattern 4 focus, a grade distribution leaning to ISUP 2 but borderline 1 / 2, and a send-to-pathologist button. Mission: a second reader for every prostate biopsy. The plan: research (now), prototype, validation, pilot, company." /></picture></a>
+<a href="https://github.com/BrianFFranck/IRIS"><img src="assets/iris-vision.svg" width="100%" alt="Iris vision, a concept mock-up with illustrative values: biopsy cores where Iris marks the three regions it weighed most, zoomed crops showing pattern 3 glands and one small possible pattern 4 focus, a grade distribution leaning to ISUP 2 but borderline 1 / 2, and a send-to-pathologist button. Mission: a second reader for every prostate biopsy. The plan: research (now), prototype, validation, pilot, company." /></a>
 
 </div>
 
@@ -79,17 +79,17 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/rppg.svg" /><img src="assets/rppg.svg" width="100%" alt="Project 02, rPPG vitals, a personal project: heart rate and breathing rate from an ordinary webcam. MediaPipe tracks the face, the forehead and cheeks give a mean skin colour per frame, POS turns it into a pulse signal and the spectrum peak gives beats per minute. Illustration with example values; not a medical device." /></picture>
+<img src="assets/rppg.svg" width="100%" alt="Project 02, rPPG vitals, a personal project: heart rate and breathing rate from an ordinary webcam. MediaPipe tracks the face, the forehead and cheeks give a mean skin colour per frame, POS turns it into a pulse signal and the spectrum peak gives beats per minute. Illustration with example values; not a medical device." />
 
 </div>
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/processes.svg" /><img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG data audit (shipped), myocardium cell graph (shipped), rPPG vital signs (shipped), medical imaging (learning), Python (running)." /></picture>
+<img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG data audit (shipped), myocardium cell graph (shipped), rPPG vital signs (shipped), medical imaging (learning), Python (running)." />
 
 <br/>
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/light/toolchain.svg" /><img src="assets/toolchain.svg" width="100%" alt="Toolchain as a constellation. Systems: Python (advanced), Linux, Git and GitHub, C. Data: pandas and NumPy, SQL, R, data visualization with Matplotlib and Seaborn. Machine learning: PyTorch, TensorFlow." /></picture>
+<img src="assets/toolchain.svg" width="100%" alt="Toolchain as a constellation. Systems: Python (advanced), Linux, Git and GitHub, C. Data: pandas and NumPy, SQL, R, data visualization with Matplotlib and Seaborn. Machine learning: PyTorch, TensorFlow." />
 
 </div>
 
@@ -100,11 +100,11 @@
 </p>
 
 <p align="center">
-  <a href="mailto:brianferrarif@gmail.com?subject=Hi%20Brian"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-email.svg" /><img src="assets/contact-email.svg" width="40%" alt="Email: brianferrarif@gmail.com" /></picture></a>
-  <a href="https://www.linkedin.com/in/brian-franck-/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-linkedin.svg" /><img src="assets/contact-linkedin.svg" width="40%" alt="LinkedIn: in/brian-franck-" /></picture></a>
+  <a href="mailto:brianferrarif@gmail.com?subject=Hi%20Brian"><img src="assets/contact-email.svg" width="40%" alt="Email: brianferrarif@gmail.com" /></a>
+  <a href="https://www.linkedin.com/in/brian-franck-/"><img src="assets/contact-linkedin.svg" width="40%" alt="LinkedIn: in/brian-franck-" /></a>
   <br/>
-  <a href="https://www.instagram.com/_brian.franck_/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-instagram.svg" /><img src="assets/contact-instagram.svg" width="40%" alt="Instagram: @_brian.franck_" /></picture></a>
-  <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/contact-discord.svg" /><img src="assets/contact-discord.svg" width="40%" alt="Discord: username ._.atllas._. (display name Atlas)" /></picture>
+  <a href="https://www.instagram.com/_brian.franck_/"><img src="assets/contact-instagram.svg" width="40%" alt="Instagram: @_brian.franck_" /></a>
+  <img src="assets/contact-discord.svg" width="40%" alt="Discord: username ._.atllas._. (display name Atlas)" />
 </p>
 
 <p align="center">

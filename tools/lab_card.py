@@ -6,7 +6,7 @@ Usage: python tools/lab_card.py path/to/experiments.md assets [README.md]
 If a README is given, the sentence between <!-- lab:start --> and <!-- lab:end --> is refreshed too.
 
 Reads the best run (highest mean validation QWK) from the Models table, the tiling check and the first open idea,
-then writes assets/lab.svg (dark) and assets/light/lab.svg. If the log cannot be parsed
+then writes assets/lab.svg (dark only). If the log cannot be parsed
 the existing card is left untouched. Standard library only.
 """
 import os, re, sys, textwrap
@@ -235,10 +235,8 @@ def main():
         print("no run with a 'mean ± std' QWK found; card left unchanged")
         return
     s = calm(card(d))
-    os.makedirs(os.path.join(out, "light"), exist_ok=True)
-    for path, text in ((os.path.join(out, "lab.svg"), s), (os.path.join(out, "light", "lab.svg"), to_light(s))):
-        with open(path, "w", encoding="utf-8") as fh:
-            fh.write(text)
+    with open(os.path.join(out, "lab.svg"), "w", encoding="utf-8") as fh:
+        fh.write(s)
     if len(sys.argv) > 3:
         refresh_readme(sys.argv[3], d)
     r = d["best"]
