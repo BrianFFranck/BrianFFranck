@@ -27,7 +27,7 @@
 
 <p align="center">
 <!-- lab:start -->
-<b>Where Iris is today (2026-11-13).</b> Best run so far: <code>abmil (gated attention MIL)</code> on 998 PANDA slides, validation QWK <b>0.69 ± 0.03</b>, with 17 of 125 ISUP 2 slides called ISUP 2. Tiling keeps a median 0.94 to 0.95 of the cancer tissue. Next: boundary-weighted loss (GG1 ↔ GG2 errors cost more)
+<b>Where Iris is today (2026-11-15).</b> Best run so far: <code>abmil (gated attention MIL)</code> on 9,022 PANDA slides, validation QWK <b>0.80 ± 0.01</b>, with 119 of 1,141 ISUP 2 slides called ISUP 2. Tiling keeps a median 0.94 to 0.95 of the cancer tissue. Next: ordinal or regression loss instead of cross-entropy
 <!-- lab:end -->
 <br/>
 <sub>These are validation numbers from early R&amp;D, not test results. The card and this line show the best run so far and update themselves from the <a href="https://github.com/BrianFFranck/IRIS/blob/main/experiments.md">experiment log</a>; every run, including the ones that don't work, is in the log.</sub>
