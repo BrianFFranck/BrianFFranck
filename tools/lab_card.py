@@ -111,14 +111,19 @@ def card(d):
 
     # --- headline number
     b.append(T(30, 76, 11, CY, "BEST RUN SO FAR  ·  VALIDATION FOLDS", ls=1.5))
-    b.append(T(30, 100, 14, FG, escape(r["model"]), weight=700))
-    b.append(T(28, 178, 76, FG, f"{r['mean']:.2f}", weight=300, ls=2))
-    b.append(T(222, 150, 20, MUTED, f"± {r['std']:.2f}"))
-    b.append(T(222, 176, 12, MUTED, "QWK", ls=2))
-    b.append(T(30, 208, 11, MUTED, escape(f"WEIGHTED KAPPA  ·  {len(r['folds']) or 5}-FOLD  ·  {r['slides']} SLIDES"), ls=1))
+    # the model name must stay left of the per-fold chart (x0 = 392): wrap to two lines, ~43 chars each at 13px
+    name = textwrap.wrap(r["model"], 43)
+    if len(name) > 2:
+        name = [name[0], name[1][:42].rstrip() + "…"]
+    for i, l in enumerate(name):
+        b.append(T(30, 98 + 17 * i, 13, FG, escape(l), weight=700))
+    b.append(T(28, 188, 76, FG, f"{r['mean']:.2f}", weight=300, ls=2))
+    b.append(T(222, 160, 20, MUTED, f"± {r['std']:.2f}"))
+    b.append(T(222, 186, 12, MUTED, "QWK", ls=2))
+    b.append(T(30, 216, 11, MUTED, escape(f"WEIGHTED KAPPA  ·  {len(r['folds']) or 5}-FOLD  ·  {r['slides']} SLIDES"), ls=1))
     tag = "NUMBER TO BEAT" if "baseline" in r["model"].lower() else f"BEST OF {d['n']} RUNS"
-    b.append(f'<rect x="30" y="222" width="{len(tag) * 7.6 + 22:.0f}" height="22" rx="3" fill="{LIME}" fill-opacity=".1" stroke="{LIME}"/>')
-    b.append(T(41, 237, 11, LIME, escape(tag), weight=700, ls=1.2))
+    b.append(f'<rect x="30" y="228" width="{len(tag) * 7.6 + 22:.0f}" height="22" rx="3" fill="{LIME}" fill-opacity=".1" stroke="{LIME}"/>')
+    b.append(T(41, 243, 11, LIME, escape(tag), weight=700, ls=1.2))
 
     # --- per-fold bars
     x0, base, hmax = 392, 214, 120
