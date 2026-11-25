@@ -85,7 +85,7 @@
 
 <div align="center">
 
-<img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG data audit (shipped), myocardium cell graph (shipped), rPPG vital signs (shipped), medical imaging (learning), Python (running)." />
+<img src="assets/processes.svg" width="100%" alt="Process table of what I'm working on: BSc in biomedicine and AI (running), Iris Gleason grading (building), ECG data audit (shipped), myocardium cell graph (shipped), rPPG vital signs (shipped), hemodynamic stability during surgery (shipped), medical imaging (learning), Python (running)." />
 
 <br/>
 
