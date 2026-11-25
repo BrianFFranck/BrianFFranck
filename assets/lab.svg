@@ -65,30 +65,30 @@
 <text x="118" y="320" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="400" letter-spacing="0">Ordinal or regression loss instead of cross-entropy</text>
 <rect x="30" y="358" width="164" height="46" rx="3" fill="#0a121a" stroke="#a3e635"/>
 <path d="M172 381 l5 5 l9 -10" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="42" y="378" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.8">DATA</text>
+<text x="42" y="378" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.8">DATA + TILES</text>
 <text x="42" y="394" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">PANDA slides</text>
 <line x1="198" y1="381" x2="212" y2="381" stroke="#a3e635" stroke-width="2"/>
 <polygon points="211,375 221,381 211,387" fill="#a3e635"/>
 <rect x="224" y="358" width="164" height="46" rx="3" fill="#0a121a" stroke="#a3e635"/>
 <path d="M366 381 l5 5 l9 -10" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="236" y="378" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.8">TILING</text>
-<text x="236" y="394" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">tissue tiles</text>
+<text x="236" y="378" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.8">ATTENTION MIL</text>
+<text x="236" y="394" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">beats mean/max</text>
 <line x1="392" y1="381" x2="406" y2="381" stroke="#a3e635" stroke-width="2"/>
 <polygon points="405,375 415,381 405,387" fill="#a3e635"/>
 <rect x="418" y="358" width="164" height="46" rx="3" fill="#0a121a" stroke="#a3e635"/>
 <path d="M560 381 l5 5 l9 -10" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="430" y="378" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.8">BASELINE</text>
-<text x="430" y="394" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">mean/max pooling</text>
+<text x="430" y="378" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.8">ENCODER 20×</text>
+<text x="430" y="394" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">pathology model</text>
 <line x1="586" y1="381" x2="600" y2="381" stroke="#a3e635" stroke-width="2"/>
 <polygon points="599,375 609,381 599,387" fill="#a3e635"/>
 <rect x="612" y="358" width="164" height="46" rx="3" fill="#0a121a" stroke="#a3e635"/>
 <path d="M754 381 l5 5 l9 -10" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="624" y="378" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.8">ATTENTION MIL</text>
-<text x="624" y="394" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">learns which tiles</text>
+<text x="624" y="378" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.8">CROSS-CENTRE</text>
+<text x="624" y="394" font-size="10.5" fill="#5f7385" text-anchor="start" font-weight="400" letter-spacing="0">other-lab slides</text>
 <line x1="780" y1="381" x2="794" y2="381" stroke="#a3e635" stroke-width="2"/>
 <polygon points="793,375 803,381 793,387" fill="#a3e635"/>
 <rect x="806" y="358" width="164" height="46" rx="3" fill="#0a121a" stroke="#22d3ee" stroke-width="1.5"/>
 <rect x="806" y="358" width="164" height="46" rx="3" fill="#22d3ee" fill-opacity=".1" class="pulse"/>
-<text x="818" y="378" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.8">BOUNDARY LOSS</text>
+<text x="818" y="378" font-size="13" fill="#d6e4ec" text-anchor="start" font-weight="700" letter-spacing="0.8">ORDINAL LOSS</text>
 <text x="818" y="394" font-size="10.5" fill="#22d3ee" text-anchor="start" font-weight="400" letter-spacing="0">up next</text>
 </svg>

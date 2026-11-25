@@ -90,10 +90,14 @@ def read_log(md):
     til = re.search(r"Karolinska\s*([\d.]+),\s*Radboud\s*([\d.]+)", blob)
     nxt = re.search(r"^- \[ \] (.+)$", md, re.M)
     names = " ".join(r["model"].lower() for r in runs)
-    stages = [("DATA", "PANDA slides", "ownload" in blob), ("TILING", "tissue tiles", "iling check" in blob),
-              ("BASELINE", "mean/max pooling", bool(re.search(r"baseline|meanmax", names))),
-              ("ATTENTION MIL", "learns which tiles", bool(re.search(r"abmil|attention|gated|clam", names))),
-              ("BOUNDARY LOSS", "ISUP 1 vs 2", "boundary" in names)]
+    # ticked ideas ("- [x] ...") record finished experiments, including ones that failed
+    ticked = " ".join(re.findall(r"^- \[x\] (.+)$", md, re.M)).lower()
+    stages = [("DATA + TILES", "PANDA slides", "ownload" in blob and "iling check" in blob),
+              ("ATTENTION MIL", "beats mean/max", bool(re.search(r"abmil|attention|gated|clam", names))),
+              ("ENCODER 20×", "pathology model",
+               bool(re.search(r"hibou|virchow|conch|\buni\b|pathology foundation", names + " " + ticked))),
+              ("CROSS-CENTRE", "other-lab slides", bool(re.search(r"cross-centre test: passes", ticked))),
+              ("ORDINAL LOSS", "ISUP 1 vs 2 edge", "ordinal" in ticked)]
     return {"latest": runs[0], "best": max(runs, key=lambda r: r["mean"]), "n": len(runs),
             "tiling": til.groups() if til else None, "next": clean(nxt.group(1)) if nxt else "", "stages": stages}
 
@@ -187,7 +191,7 @@ def card(d):
             b.append(f'<rect x="{x}" y="358" width="164" height="46" rx="3" fill="{CY}" fill-opacity=".1" class="pulse"/>')
         if done:
             b.append(f'<path d="M{x + 142} 381 l5 5 l9 -10" fill="none" stroke="{LIME}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>')
-        b.append(T(x + 12, 378, 13, FG if (done or now) else MUTED, k, weight=700, ls=.8))
+        b.append(T(x + 12, 378, 13, FG if (done or now) else MUTED, escape(k), weight=700, ls=.8))
         b.append(T(x + 12, 394, 10.5, CY if now else MUTED, "up next" if now else v))
         if i < len(d["stages"]) - 1:
             ax = x + 168
